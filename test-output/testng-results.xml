@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-04T06:19:47Z" name="Default suite" finished-at="2019-07-04T06:19:52Z" duration-ms="5710">
+    <groups>
+    </groups>
+    <test started-at="2019-07-04T06:19:47Z" name="Default test" finished-at="2019-07-04T06:19:52Z" duration-ms="5710">
+      <class name="com.bpci.testCases.TC006_Get_EpisodeSummary">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bpci.testCases.TC006_Get_EpisodeSummary@6b4a4e18]" started-at="2019-07-04T06:19:47Z" name="setup" finished-at="2019-07-04T06:19:47Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getEpisodeSummary()[pri:0, instance:com.bpci.testCases.TC006_Get_EpisodeSummary@6b4a4e18]" started-at="2019-07-04T06:19:47Z" name="getEpisodeSummary" finished-at="2019-07-04T06:19:52Z" duration-ms="5164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEpisodeSummary -->
+        <test-method signature="checkContentLength()[pri:0, instance:com.bpci.testCases.TC006_Get_EpisodeSummary@6b4a4e18]" started-at="2019-07-04T06:19:52Z" name="checkContentLength" finished-at="2019-07-04T06:19:52Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method signature="checkContentType()[pri:0, instance:com.bpci.testCases.TC006_Get_EpisodeSummary@6b4a4e18]" started-at="2019-07-04T06:19:52Z" name="checkContentType" finished-at="2019-07-04T06:19:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkEpisodeSummary()[pri:0, instance:com.bpci.testCases.TC006_Get_EpisodeSummary@6b4a4e18]" started-at="2019-07-04T06:19:52Z" name="checkEpisodeSummary" finished-at="2019-07-04T06:19:52Z" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEpisodeSummary -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.bpci.testCases.TC006_Get_EpisodeSummary@6b4a4e18]" started-at="2019-07-04T06:19:52Z" name="checkResponseTime" finished-at="2019-07-04T06:19:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkServerType()[pri:0, instance:com.bpci.testCases.TC006_Get_EpisodeSummary@6b4a4e18]" started-at="2019-07-04T06:19:52Z" name="checkServerType" finished-at="2019-07-04T06:19:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.bpci.testCases.TC006_Get_EpisodeSummary@6b4a4e18]" started-at="2019-07-04T06:19:52Z" name="checkStatusCode" finished-at="2019-07-04T06:19:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.bpci.testCases.TC006_Get_EpisodeSummary@6b4a4e18]" started-at="2019-07-04T06:19:52Z" name="checkStatusLine" finished-at="2019-07-04T06:19:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bpci.testCases.TC006_Get_EpisodeSummary@6b4a4e18]" started-at="2019-07-04T06:19:52Z" name="tearDown" finished-at="2019-07-04T06:19:52Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bpci.testCases.TC006_Get_EpisodeSummary -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

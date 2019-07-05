@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="com.bpci.utilities.Listeners" />
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.bpci.testCases.TC001_Get_ActiveAdmissionCount"/>
+      <class name="com.bpci.testCases.TC002_Get_AverageLOS"/>
+      <class name="com.bpci.testCases.TC003_Get_ProjectedCostPerYear"/>
+      <class name="com.bpci.testCases.TC004_Get_PercentageOfReadmission"/>
+      <class name="com.bpci.testCases.TC005_Get_PercentageDischargeToSNF"/>
+      <class name="com.bpci.testCases.TC006_Get_EpisodeSummary"/>
+      <class name="com.bpci.testCases.TC007_Get_EpisodeSummaryDetails"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,324 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>49/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 03 18:31:29 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>23 seconds (23908 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkAdmissionCount()'><b>checkAdmissionCount</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC002_Get_AverageLOS.checkAverageLOS()'><b>checkAverageLOS</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC002_Get_AverageLOS.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC002_Get_AverageLOS.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkEpisodeSummary()'><b>checkEpisodeSummary</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkEpisodeSummaryDetails()'><b>checkEpisodeSummaryDetails</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkPercentageDischargeToSNF()'><b>checkPercentageDischargeToSNF</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkPercentageOfReadmission()'><b>checkPercentageOfReadmission</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkProjectedCost()'><b>checkProjectedCost</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC002_Get_AverageLOS.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC002_Get_AverageLOS.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC002_Get_AverageLOS.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC002_Get_AverageLOS.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.bpci.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.bpci.testCases.TC005_Get_PercentageDischargeToSNF">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getActiveAdmissionCount"/>
+          <include name="setup"/>
+          <include name="checkPercentageDischargeToSNF"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC005_Get_PercentageDischargeToSNF -->
+      <class name="com.bpci.testCases.TC003_Get_ProjectedCostPerYear">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkProjectedCost"/>
+          <include name="setup"/>
+          <include name="getActiveAdmissionCount"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC003_Get_ProjectedCostPerYear -->
+      <class name="com.bpci.testCases.TC004_Get_PercentageOfReadmission">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getActiveAdmissionCount"/>
+          <include name="setup"/>
+          <include name="checkPercentageOfReadmission"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC004_Get_PercentageOfReadmission -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
