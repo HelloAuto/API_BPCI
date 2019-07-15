@@ -1,25 +1,28 @@
 package com.bpci.testCases;
 
+import java.util.Map;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.bpci.base.TestBase;
+import com.mongodb.diagnostics.logging.Logger;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 
-public class TC001_Get_ActiveAdmissionCount extends TestBase{
+public class TC008_Get_ClinicalEpisodeType extends TestBase{
 	
 	@BeforeClass
-	void getActiveAdmissionCount() throws InterruptedException {
+	void getClinicalEpisodeType() throws InterruptedException {
 		
-		logger.info("********started TC001_Get_ActiveAdmissionCount*********");
+		logger.info("********started TC008_Get_ClinicalEpisodeType*********");
 		RestAssured.baseURI = uri;
 		httpRequest = RestAssured.given();
-		response = httpRequest.request(Method.GET,"/getActiveAdmissionCount");
+		response = httpRequest.request(Method.GET,"/getClinicalEpisodeType?drg=471");
 		Thread.sleep(1000);
 	}
 
@@ -33,13 +36,20 @@ public class TC001_Get_ActiveAdmissionCount extends TestBase{
 	}
 	
 	@Test
-	void checkAdmissionCount() {
-		logger.info("********Checking Admision Count*********");
-		//String responseBody = response.getBody().asString();  //To validate single data.Below one will help to validate each data of response string. 
+	void checkClinicalEpisodeDetails() {
+		logger.info("********Checking Clinical Episode Details*********"); 
 		JsonPath jsonpath = response.jsonPath();
-		int i = jsonpath.get("AdmissionCount");
-		logger.info("Admission Count is ==> "+i);
-		System.out.println(i);
+		Map<String, Object> clinicalEpisodeDetails = jsonpath.get();
+ 		logger.info(clinicalEpisodeDetails);
+ 		int clinicalEID = (Integer) clinicalEpisodeDetails.get("ClinicalEpisodeId");
+ 		Assert.assertEquals(clinicalEID, 75, "Not Matched");
+ 		logger.info("Clinical Episode Id is :"+clinicalEID);
+ 		
+ 		String episodeType=(String) clinicalEpisodeDetails.get("ClinicalEpisodeType");
+ 		Assert.assertEquals(episodeType, "CERVICAL SPINAL FUSION");
+ 		logger.info("clinical EpisodeDetails is:::"+episodeType);
+ 		
+		
 	}
 	
 	@Test
@@ -84,8 +94,10 @@ public class TC001_Get_ActiveAdmissionCount extends TestBase{
 		Assert.assertEquals(serverType, "Microsoft-IIS/8.5");
 	}
 	
+	
 	@AfterClass 
 	void tearDown() {
 		logger.info("********Finished TC001_Get_ActiveAdmissionCount*********");
 	}
+
 }

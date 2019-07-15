@@ -23,7 +23,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream fis  = new FileInputStream("C:\\Users\\91890\\eclipse-workspace\\RestAssuredAPITesting_BPCI\\src\\test\\java\\com\\bpci\\config\\config.properties");
+			FileInputStream fis  = new FileInputStream("C:\\Users\\Neha\\eclipse-workspace\\API_BPCI_TEST\\API_BPCI\\src\\test\\java\\com\\bpci\\config\\config.properties");
 			prop.load(fis);
 		}
 		catch(Exception e) {
@@ -35,7 +35,7 @@ public class TestBase {
 	@BeforeClass
 	public void setup() {
 		logger = Logger.getLogger("BPCI_Rest_API");
-		PropertyConfigurator.configure("C:\\Users\\91890\\eclipse-workspace\\RestAssuredAPITesting_BPCI\\log4j.properties");
+		PropertyConfigurator.configure("Log4j.properties");
 		logger.setLevel(Level.DEBUG);
 	}
 	

@@ -1,26 +1,29 @@
 package com.bpci.testCases;
 
+import java.util.List;
+import java.util.Map;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.bpci.base.TestBase;
+import com.bpci.utilities.DBConnect;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 
-public class TC001_Get_ActiveAdmissionCount extends TestBase{
-	
+public class TC014_Get_Initiator_Name extends TestBase {
 	@BeforeClass
-	void getActiveAdmissionCount() throws InterruptedException {
+	void getInitiatorName() throws InterruptedException {
 		
-		logger.info("********started TC001_Get_ActiveAdmissionCount*********");
+		logger.info("********started TC014_Get_Initiator_Name*********");
 		RestAssured.baseURI = uri;
 		httpRequest = RestAssured.given();
-		response = httpRequest.request(Method.GET,"/getActiveAdmissionCount");
-		Thread.sleep(1000);
+		response = httpRequest.request(Method.GET,"/getInitiatorNames");
+		Thread.sleep(3000);
 	}
 
 	@Test
@@ -33,13 +36,30 @@ public class TC001_Get_ActiveAdmissionCount extends TestBase{
 	}
 	
 	@Test
-	void checkAdmissionCount() {
-		logger.info("********Checking Admision Count*********");
-		//String responseBody = response.getBody().asString();  //To validate single data.Below one will help to validate each data of response string. 
-		JsonPath jsonpath = response.jsonPath();
-		int i = jsonpath.get("AdmissionCount");
-		logger.info("Admission Count is ==> "+i);
-		System.out.println(i);
+	void checkEpisodeSummary() {
+		try {
+			logger.info("********Checking Initiator details *********"); 
+			JsonPath jsonpath = response.jsonPath();
+			List<Map<String, Object>> responseBody = jsonpath.get("InitiatorDetails");
+			
+			//responseBody=jsonpath.get();
+			for(int i=0; i<responseBody.size(); i++) {
+				if((Integer)responseBody.get(i).get("Id")==2) {
+					logger.info("Initiator ID is : "+responseBody.get(i).get("Id"));
+					logger.info("Initiator Name is : "+responseBody.get(i).get("Name"));
+					Assert.assertEquals(responseBody.get(i).get("Id"), 2, "Id not matched");
+					//Assert.assertEquals(responseBody.get(i).get("Name"), "ZEIDAN FADY", "Name not matched");
+				Assert.assertEquals(responseBody.get(i).get("Name"), DBConnect.connectDB("tbl_Initiator", "initiatorid", 2));
+				System.out.println(DBConnect.connectDB("tbl_Initiator", "initiatorid", 2));
+				}
+		
+			}		
+		}
+		catch (Exception e) {
+			//e.printStackTrace();
+			logger.warn(e);
+			
+		}
 	}
 	
 	@Test
@@ -73,7 +93,7 @@ public class TC001_Get_ActiveAdmissionCount extends TestBase{
 		logger.info("********Checking Content Length*********");
 		String contentLength = response.header("Content-Length");
 		logger.info("Content Length is ==> "+contentLength);
-		Assert.assertTrue(Integer.parseInt(contentLength) < 1500);
+		Assert.assertTrue(Integer.parseInt(contentLength) < 2500);
 	}
 	
 	@Test
@@ -86,6 +106,15 @@ public class TC001_Get_ActiveAdmissionCount extends TestBase{
 	
 	@AfterClass 
 	void tearDown() {
-		logger.info("********Finished TC001_Get_ActiveAdmissionCount*********");
+		logger.info("********Finished TC006_Get_Episode_Summary*********");
 	}
+
+
 }
+
+	
+
+		
+
+
+
