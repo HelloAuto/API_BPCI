@@ -7,8 +7,12 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
+<<<<<<< HEAD
           <include name="getActiveAdmissionCount"/>
           <include name="getProjectCost"/>
+=======
+          <include name="validatePercentageDischargeToSNFFilterByInactive"/>
+>>>>>>> d7658d74c11a26158bd510b47ff26e1b2e15be75
         </methods>
       </class> <!-- com.bpci.testCases.TC003_Get_ProjectedCostPerYear -->
     </classes>

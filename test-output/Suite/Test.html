@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>49/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>64/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 03 18:31:29 IST 2019</td>
+<td>Started on:</td><td>Mon Jul 15 12:53:21 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23908 ms)</td>
+<tr><td>Total time:</td><td>35 seconds (35349 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,175 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByLOS()'><b>checkActiveEpisodeFilterByLOS</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td><div><pre>java.lang.AssertionError: Not Matched expected [12] but found [3]
+	at com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByLOS(TC001_Get_ActiveAdmissionCount.java:167)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace245298614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace245298614'><pre>java.lang.AssertionError: Not Matched expected [12] but found [3]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByLOS(TC001_Get_ActiveAdmissionCount.java:167)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.bpci.testCases.TC006_Get_EpisodeSummary.checkContentLength(TC006_Get_EpisodeSummary.java:159)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace324158286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace324158286'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.bpci.testCases.TC006_Get_EpisodeSummary.checkContentLength(TC006_Get_EpisodeSummary.java:159)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@7f1302d6</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [500]
+	at com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkStatusCode(TC004_Get_PercentageOfReadmission.java:31)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace378006273", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace378006273'><pre>java.lang.AssertionError: expected [200] but found [500]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkStatusCode(TC004_Get_PercentageOfReadmission.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@7692d9cc</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
+<td><div><pre>java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 500 Internal Server Error]
+	at com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkStatusLine(TC004_Get_PercentageOfReadmission.java:55)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace797539755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace797539755'><pre>java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 500 Internal Server Error]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkStatusLine(TC004_Get_PercentageOfReadmission.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@7692d9cc</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,250 +244,325 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisode()'><b>checkActiveEpisode</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByCurrentState()'><b>checkActiveEpisodeFilterByCurrentState</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByDischargeDate()'><b>checkActiveEpisodeFilterByDischargeDate</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByDischargeDisposition()'><b>checkActiveEpisodeFilterByDischargeDisposition</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByEpisodeId()'><b>checkActiveEpisodeFilterByEpisodeId</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByFacilityName()'><b>checkActiveEpisodeFilterByFacilityName</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByInitiatorName()'><b>checkActiveEpisodeFilterByInitiatorName</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByOwnerName()'><b>checkActiveEpisodeFilterByOwnerName</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByPatientName()'><b>checkActiveEpisodeFilterByPatientName</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkActiveEpisodeFilterByStartDate()'><b>checkActiveEpisodeFilterByStartDate</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
 <td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkAdmissionCount()'><b>checkAdmissionCount</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC002_Get_AverageLOS.checkAverageLOS()'><b>checkAverageLOS</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@6b19b79</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC002_Get_AverageLOS.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@6b19b79</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2a32de6c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@7692d9cc</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
-<tr>
-<td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
-<td></td>
-<td>0</td>
-<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkContentLength()'><b>checkContentLength</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@43ee72e6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC002_Get_AverageLOS.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@6b19b79</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2a32de6c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@7692d9cc</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@7f1302d6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkContentType()'><b>checkContentType</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@43ee72e6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkEpisodeSummary()'><b>checkEpisodeSummary</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@7f1302d6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkEpisodeSummaryDetails()'><b>checkEpisodeSummaryDetails</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@43ee72e6</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkInactiveEpisode()'><b>checkInactiveEpisode</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkObservationEpisode()'><b>checkObservationEpisode</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkPercentageDischargeToSNF()'><b>checkPercentageDischargeToSNF</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkPercentageOfReadmission()'><b>checkPercentageOfReadmission</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@7692d9cc</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkProjectedCost()'><b>checkProjectedCost</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2a32de6c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC002_Get_AverageLOS.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@6b19b79</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2a32de6c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@7692d9cc</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@7f1302d6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@43ee72e6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC002_Get_AverageLOS.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@6b19b79</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2a32de6c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@7692d9cc</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@7f1302d6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkServerType()'><b>checkServerType</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@43ee72e6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC002_Get_AverageLOS.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@6b19b79</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
-<tr>
-<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
-<td></td>
-<td>0</td>
-<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2a32de6c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@7f1302d6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@43ee72e6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC001_Get_ActiveAdmissionCount.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC001_Get_ActiveAdmissionCount</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@f8c1ddd</td></tr>
+<td>com.bpci.testCases.TC001_Get_ActiveAdmissionCount@60704c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC002_Get_AverageLOS.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC002_Get_AverageLOS</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC002_Get_AverageLOS@70be0a2b</td></tr>
+<td>com.bpci.testCases.TC002_Get_AverageLOS@6b19b79</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC003_Get_ProjectedCostPerYear.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC003_Get_ProjectedCostPerYear</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2133814f</td></tr>
-<tr>
-<td title='com.bpci.testCases.TC004_Get_PercentageOfReadmission.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC004_Get_PercentageOfReadmission</td>
-<td></td>
-<td>0</td>
-<td>com.bpci.testCases.TC004_Get_PercentageOfReadmission@4c15e7fd</td></tr>
+<td>com.bpci.testCases.TC003_Get_ProjectedCostPerYear@2a32de6c</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@23986957</td></tr>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC006_Get_EpisodeSummary.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC006_Get_EpisodeSummary</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC006_Get_EpisodeSummary@23f7d05d</td></tr>
+<td>com.bpci.testCases.TC006_Get_EpisodeSummary@7f1302d6</td></tr>
 <tr>
 <td title='com.bpci.testCases.TC007_Get_EpisodeSummaryDetails.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.bpci.testCases.TC007_Get_EpisodeSummaryDetails</td>
 <td></td>
 <td>0</td>
-<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@1e730495</td></tr>
+<td>com.bpci.testCases.TC007_Get_EpisodeSummaryDetails@43ee72e6</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.validatePercentageDischargeToSNFFilterByAdmitDate()'><b>validatePercentageDischargeToSNFFilterByAdmitDate</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.validatePercentageDischargeToSNFFilterByDischargeDate()'><b>validatePercentageDischargeToSNFFilterByDischargeDate</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.validatePercentageDischargeToSNFFilterByEpisodeId()'><b>validatePercentageDischargeToSNFFilterByEpisodeId</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.validatePercentageDischargeToSNFFilterByEpisodeType()'><b>validatePercentageDischargeToSNFFilterByEpisodeType</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.validatePercentageDischargeToSNFFilterByLOS()'><b>validatePercentageDischargeToSNFFilterByLOS</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
+<tr>
+<td title='com.bpci.testCases.TC005_Get_PercentageDischargeToSNF.validatePercentageDischargeToSNFFilterByStartDate()'><b>validatePercentageDischargeToSNFFilterByStartDate</b><br>Test class: com.bpci.testCases.TC005_Get_PercentageDischargeToSNF</td>
+<td></td>
+<td>0</td>
+<td>com.bpci.testCases.TC005_Get_PercentageDischargeToSNF@75f32542</td></tr>
 </table><p>
 </body>
 </html>

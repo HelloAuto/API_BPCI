@@ -40,6 +40,7 @@ public class TC005_Get_PercentageDischargeToSNF extends TestBase{
 			JsonPath jsonpath = response.jsonPath();
 			int i = jsonpath.get("DischargeSNF");
 			logger.info("Percentage Discharge to SNF is ==> "+i);
+			Assert.assertEquals(i, 67);
 		}
 		catch (NullPointerException e) {
 			//e.printStackTrace();
@@ -88,6 +89,221 @@ public class TC005_Get_PercentageDischargeToSNF extends TestBase{
 		String serverType = response.header("Server");
 		logger.info("Server Type is ==> "+serverType);
 		Assert.assertEquals(serverType, "Microsoft-IIS/8.5");
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByEpisodeId() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Episode ID*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?episodeId=14");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 100);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByEpisodeType() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Episode Type*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?episodeType_fk=86");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 67);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByStartDate() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Start Date*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?startdate=2019-04-01 00:00:00.000");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 100);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByAdmitDate() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Admit Date*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?admitDate=2019-02-10 00:00:00.000");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 50);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByDischargeDate() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Discharge Date*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?dischargeDate=2019-02-20 00:00:00.000");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 50);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByLOS() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By LOS*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?los=10");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 67);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByPatientName() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Patient Name*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?patientName=fullname5");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 100);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByDischargeDisposition() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Discharge Disposition*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?dischargeDisposition=DD1");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 100);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByOwnerName() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Owner Name*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?owner=owner1");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 100);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByFacilityName() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Facility Name*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?facilityName=name2");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 50);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByEndDate() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By End Date*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?endDate=2019-08-30 00:00:00.000");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 100);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByObservationDate() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Observation Date*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?observation_End=2019-10-29 00:00:00.000");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 67);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByState() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By State*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?state=state1");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 67);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByStatus() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By status*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?status=ACTIVE");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 67);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByInitiator() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Initiator*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?initiator_Fullname=Dr.V");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 67);
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByDefault() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Default*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?status=active");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		response=httpRequest.request(Method.GET,"/getDischargeSNF");
+		JsonPath jsonpathresp = response.jsonPath();
+		int j =jsonpathresp.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		logger.info("Default SNF is : "+j);
+		//Assert.assert
+		Assert.assertEquals(i, j);
+		if(i==j) {
+			logger.info("Pass");
+		}
+		else 
+			logger.warn("Fail");
+		
+	}
+	
+	@Test
+	void validatePercentageDischargeToSNFFilterByInactive() {
+		logger.info("\"********Checking Percentage Discharge to SNF Filter By Inactive*********\"");
+		RestAssured.baseURI=uri;
+		httpRequest=RestAssured.given();
+		response=httpRequest.request(Method.GET,"/getDischargeSNF?status=inactive");
+		JsonPath jsonresponse = response.jsonPath();
+		int i = jsonresponse.get("DischargeSNF");
+		logger.info("Discharge to SNF is : "+i);
+		Assert.assertEquals(i, 80);
 	}
 	
 	@AfterClass 
