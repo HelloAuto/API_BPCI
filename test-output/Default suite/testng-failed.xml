@@ -8,7 +8,7 @@
           <include name="tearDown"/>
           <include name="getActiveAdmissionCount"/>
           <include name="setup"/>
-          <include name="checkPercentageDischargeToSNF"/>
+          <include name="validatePercentageDischargeToSNFFilterByInactive"/>
         </methods>
       </class> <!-- com.bpci.testCases.TC005_Get_PercentageDischargeToSNF -->
     </classes>

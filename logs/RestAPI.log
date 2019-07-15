@@ -287,3 +287,1106 @@
 07-04-2019 11:49:52 INFO  BPCI_Rest_API: 130 - ********Checking Status Line*********
 07-04-2019 11:49:52 INFO  BPCI_Rest_API: 132 - Status Line is ==> HTTP/1.1 200 OK
 07-04-2019 11:49:52 INFO  BPCI_Rest_API: 172 - ********Finished TC006_Get_Episode_Summary*********
+07-11-2019 14:18:01 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 14:18:04 INFO  DefaultHttpClient: 625 - I/O exception (java.net.SocketException) caught when connecting to {}->http://192.61.99.40:8089: Software caused connection abort: connect
+07-11-2019 14:18:04 INFO  DefaultHttpClient: 633 - Retrying connect to {}->http://192.61.99.40:8089
+07-11-2019 14:18:11 INFO  BPCI_Rest_API: 37 - ********Checking Admision Count*********
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 41 - Admission Count is ==> 13
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 72 - ********Checking Content Length*********
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 74 - Content Length is ==> 21
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 64 - ********Checking Content Type*********
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 66 - Content Type is ==> application/json; charset=utf-8
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 54 - ********Checking Response Time*********
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 56 - Response Time is ==> 8354
+07-11-2019 14:18:12 WARN  BPCI_Rest_API: 58 - Response Time is greater than 2000
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 80 - ********Checking Server Type*********
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 82 - Server Type is ==> Microsoft-IIS/8.5
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 29 - ********Checking Status Code*********
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 31 - Status Code is ==> 200
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 46 - ********Checking Status Line*********
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 48 - Status Line is ==> HTTP/1.1 200 OK
+07-11-2019 14:18:12 INFO  BPCI_Rest_API: 88 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 14:20:48 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 37 - ********Checking Admision Count*********
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 41 - Admission Count is ==> 13
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 72 - ********Checking Content Length*********
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 74 - Content Length is ==> 21
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 64 - ********Checking Content Type*********
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 66 - Content Type is ==> application/json; charset=utf-8
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 54 - ********Checking Response Time*********
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 56 - Response Time is ==> 1056
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 80 - ********Checking Server Type*********
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 82 - Server Type is ==> Microsoft-IIS/8.5
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 29 - ********Checking Status Code*********
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 31 - Status Code is ==> 200
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 46 - ********Checking Status Line*********
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 48 - Status Line is ==> HTTP/1.1 200 OK
+07-11-2019 14:20:51 INFO  BPCI_Rest_API: 88 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 14:58:33 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 14:58:36 INFO  BPCI_Rest_API: 88 - ********Checking Active Episode*********
+07-11-2019 14:58:37 INFO  BPCI_Rest_API: 99 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 14:58:58 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 14:59:01 INFO  BPCI_Rest_API: 88 - ********Checking Active Episode*********
+07-11-2019 14:59:02 INFO  BPCI_Rest_API: 94 - Active Admission Count is : 13
+07-11-2019 14:59:02 INFO  BPCI_Rest_API: 99 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 14:59:50 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 14:59:53 INFO  BPCI_Rest_API: 88 - ********Checking Active Episode*********
+07-11-2019 14:59:54 INFO  BPCI_Rest_API: 94 - Active Admission Count is : 13
+07-11-2019 14:59:54 INFO  BPCI_Rest_API: 100 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 15:02:03 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 15:02:06 INFO  BPCI_Rest_API: 100 - ********Checking Active Episode*********
+07-11-2019 15:02:07 INFO  BPCI_Rest_API: 106 - Inactive Admission Count is : 4
+07-11-2019 15:02:07 INFO  BPCI_Rest_API: 112 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 15:05:00 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 15:05:03 INFO  BPCI_Rest_API: 112 - ********Checking Observation Episode*********
+07-11-2019 15:05:05 INFO  BPCI_Rest_API: 118 - Inactive Admission Count is : 0
+07-11-2019 15:05:05 INFO  BPCI_Rest_API: 124 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 15:35:04 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 15:35:07 INFO  BPCI_Rest_API: 124 - ********Checking Active Episode*********
+07-11-2019 15:35:08 INFO  BPCI_Rest_API: 130 - Active Admission Count is : 1
+07-11-2019 15:35:08 INFO  BPCI_Rest_API: 136 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 15:38:16 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 15:38:19 INFO  BPCI_Rest_API: 136 - ********Checking Active Episode Filter By Episode Type*********
+07-11-2019 15:38:20 INFO  BPCI_Rest_API: 142 - Active Admission Count is : 13
+07-11-2019 15:38:20 INFO  BPCI_Rest_API: 148 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 15:45:46 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 15:45:49 INFO  BPCI_Rest_API: 148 - ********Checking Active Episode Filter By Discharge Date*********
+07-11-2019 15:45:50 INFO  BPCI_Rest_API: 154 - Active Admission Count is : 1
+07-11-2019 15:45:50 INFO  BPCI_Rest_API: 160 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 16:19:21 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 16:19:24 INFO  BPCI_Rest_API: 160 - ********Checking Active Episode Filter By LOS*********
+07-11-2019 16:19:25 INFO  BPCI_Rest_API: 166 - Active Admission Count is : 12
+07-11-2019 16:19:25 INFO  BPCI_Rest_API: 172 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 16:26:05 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 16:26:08 INFO  BPCI_Rest_API: 172 - ********Checking Active Episode Filter By Initiator Name*********
+07-11-2019 16:26:09 INFO  BPCI_Rest_API: 178 - Active Admission Count is : 13
+07-11-2019 16:26:09 INFO  BPCI_Rest_API: 184 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 16:31:36 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 16:31:49 INFO  BPCI_Rest_API: 184 - ********Checking Active Episode Filter By Discharge Disposition*********
+07-11-2019 16:31:50 INFO  BPCI_Rest_API: 190 - Active Admission Count is : 2
+07-11-2019 16:31:50 INFO  BPCI_Rest_API: 196 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 16:59:08 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 16:59:11 INFO  BPCI_Rest_API: 196 - ********Checking Active Episode Filter By Facility Name*********
+07-11-2019 16:59:12 INFO  BPCI_Rest_API: 202 - Active Admission Count is : 1
+07-11-2019 16:59:12 INFO  BPCI_Rest_API: 208 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 17:03:41 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 17:03:44 INFO  BPCI_Rest_API: 208 - ********Checking Active Episode Filter By Readmission*********
+07-11-2019 17:03:44 INFO  BPCI_Rest_API: 214 - Active Admission Count is : 13
+07-11-2019 17:03:44 INFO  BPCI_Rest_API: 220 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 17:15:12 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 17:15:15 INFO  BPCI_Rest_API: 220 - ********Checking Active Episode Filter By Start Date*********
+07-11-2019 17:15:16 INFO  BPCI_Rest_API: 226 - Active Admission Count is : 9
+07-11-2019 17:15:16 INFO  BPCI_Rest_API: 232 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 17:32:27 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 17:32:29 INFO  BPCI_Rest_API: 232 - ********Checking Active Episode Filter By Patient Name*********
+07-11-2019 17:32:30 INFO  BPCI_Rest_API: 238 - Active Admission Count is : 7
+07-11-2019 17:32:30 INFO  BPCI_Rest_API: 244 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 17:38:44 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 17:38:46 INFO  BPCI_Rest_API: 244 - ********Checking Active Episode Filter By Current State*********
+07-11-2019 17:38:47 INFO  BPCI_Rest_API: 250 - Active Admission Count is : 3
+07-11-2019 17:38:47 INFO  BPCI_Rest_API: 256 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 18:05:14 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 18:05:16 INFO  BPCI_Rest_API: 256 - ********Checking Active Episode Filter By Owner Name*********
+07-11-2019 18:05:17 INFO  BPCI_Rest_API: 262 - Active Admission Count is : 10
+07-11-2019 18:05:17 INFO  BPCI_Rest_API: 268 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 18:07:41 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 18:07:43 INFO  BPCI_Rest_API: 88 - ********Checking Active Episode*********
+07-11-2019 18:07:44 INFO  BPCI_Rest_API: 94 - Active Admission Count is : 13
+07-11-2019 18:07:44 INFO  BPCI_Rest_API: 244 - ********Checking Active Episode Filter By Current State*********
+07-11-2019 18:07:45 INFO  BPCI_Rest_API: 250 - Active Admission Count is : 3
+07-11-2019 18:07:45 INFO  BPCI_Rest_API: 148 - ********Checking Active Episode Filter By Discharge Date*********
+07-11-2019 18:07:45 INFO  BPCI_Rest_API: 154 - Active Admission Count is : 1
+07-11-2019 18:07:45 INFO  BPCI_Rest_API: 184 - ********Checking Active Episode Filter By Discharge Disposition*********
+07-11-2019 18:07:46 INFO  BPCI_Rest_API: 190 - Active Admission Count is : 2
+07-11-2019 18:07:46 INFO  BPCI_Rest_API: 124 - ********Checking Active Episode Filter By Episode Id*********
+07-11-2019 18:07:46 INFO  BPCI_Rest_API: 130 - Active Admission Count is : 1
+07-11-2019 18:07:46 INFO  BPCI_Rest_API: 136 - ********Checking Active Episode Filter By Episode Type*********
+07-11-2019 18:07:47 INFO  BPCI_Rest_API: 142 - Active Admission Count is : 13
+07-11-2019 18:07:47 INFO  BPCI_Rest_API: 196 - ********Checking Active Episode Filter By Facility Name*********
+07-11-2019 18:07:47 INFO  BPCI_Rest_API: 202 - Active Admission Count is : 1
+07-11-2019 18:07:47 INFO  BPCI_Rest_API: 172 - ********Checking Active Episode Filter By Initiator Name*********
+07-11-2019 18:07:48 INFO  BPCI_Rest_API: 178 - Active Admission Count is : 3
+07-11-2019 18:07:48 INFO  BPCI_Rest_API: 160 - ********Checking Active Episode Filter By LOS*********
+07-11-2019 18:07:48 INFO  BPCI_Rest_API: 166 - Active Admission Count is : 12
+07-11-2019 18:07:48 INFO  BPCI_Rest_API: 256 - ********Checking Active Episode Filter By Owner Name*********
+07-11-2019 18:07:49 INFO  BPCI_Rest_API: 262 - Active Admission Count is : 10
+07-11-2019 18:07:49 INFO  BPCI_Rest_API: 232 - ********Checking Active Episode Filter By Patient Name*********
+07-11-2019 18:07:50 INFO  BPCI_Rest_API: 238 - Active Admission Count is : 7
+07-11-2019 18:07:50 INFO  BPCI_Rest_API: 220 - ********Checking Active Episode Filter By Start Date*********
+07-11-2019 18:07:50 INFO  BPCI_Rest_API: 226 - Active Admission Count is : 9
+07-11-2019 18:07:50 INFO  BPCI_Rest_API: 37 - ********Checking Admision Count*********
+07-11-2019 18:07:50 INFO  BPCI_Rest_API: 41 - Admission Count is ==> 9
+07-11-2019 18:07:50 INFO  BPCI_Rest_API: 72 - ********Checking Content Length*********
+07-11-2019 18:07:50 INFO  BPCI_Rest_API: 74 - Content Length is ==> 20
+07-11-2019 18:07:50 INFO  BPCI_Rest_API: 64 - ********Checking Content Type*********
+07-11-2019 18:07:50 INFO  BPCI_Rest_API: 66 - Content Type is ==> application/json; charset=utf-8
+07-11-2019 18:07:50 INFO  BPCI_Rest_API: 100 - ********Checking Inactive Episode*********
+07-11-2019 18:07:51 INFO  BPCI_Rest_API: 106 - Inactive Admission Count is : 4
+07-11-2019 18:07:51 INFO  BPCI_Rest_API: 112 - ********Checking Observation Episode*********
+07-11-2019 18:07:52 INFO  BPCI_Rest_API: 118 - Inactive Admission Count is : 0
+07-11-2019 18:07:52 INFO  BPCI_Rest_API: 54 - ********Checking Response Time*********
+07-11-2019 18:07:52 INFO  BPCI_Rest_API: 56 - Response Time is ==> 589
+07-11-2019 18:07:52 INFO  BPCI_Rest_API: 80 - ********Checking Server Type*********
+07-11-2019 18:07:52 INFO  BPCI_Rest_API: 82 - Server Type is ==> Microsoft-IIS/8.5
+07-11-2019 18:07:52 INFO  BPCI_Rest_API: 29 - ********Checking Status Code*********
+07-11-2019 18:07:52 INFO  BPCI_Rest_API: 31 - Status Code is ==> 200
+07-11-2019 18:07:52 INFO  BPCI_Rest_API: 46 - ********Checking Status Line*********
+07-11-2019 18:07:52 INFO  BPCI_Rest_API: 48 - Status Line is ==> HTTP/1.1 200 OK
+07-11-2019 18:07:52 INFO  BPCI_Rest_API: 268 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-11-2019 18:33:01 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 18:34:24 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-11-2019 18:34:27 INFO  BPCI_Rest_API: 88 - ********Checking Active Episode*********
+07-11-2019 18:34:27 INFO  BPCI_Rest_API: 94 - Active Admission Count is : 13
+07-11-2019 18:34:27 INFO  BPCI_Rest_API: 244 - ********Checking Active Episode Filter By Current State*********
+07-11-2019 18:34:28 INFO  BPCI_Rest_API: 250 - Active Admission Count is : 3
+07-11-2019 18:34:28 INFO  BPCI_Rest_API: 148 - ********Checking Active Episode Filter By Discharge Date*********
+07-11-2019 18:34:28 INFO  BPCI_Rest_API: 154 - Active Admission Count is : 1
+07-11-2019 18:34:28 INFO  BPCI_Rest_API: 184 - ********Checking Active Episode Filter By Discharge Disposition*********
+07-11-2019 18:34:29 INFO  BPCI_Rest_API: 190 - Active Admission Count is : 2
+07-11-2019 18:34:29 INFO  BPCI_Rest_API: 124 - ********Checking Active Episode Filter By Episode Id*********
+07-11-2019 18:34:30 INFO  BPCI_Rest_API: 130 - Active Admission Count is : 1
+07-11-2019 18:34:30 INFO  BPCI_Rest_API: 196 - ********Checking Active Episode Filter By Facility Name*********
+07-11-2019 18:34:30 INFO  BPCI_Rest_API: 202 - Active Admission Count is : 1
+07-11-2019 18:34:30 INFO  BPCI_Rest_API: 172 - ********Checking Active Episode Filter By Initiator Name*********
+07-11-2019 18:34:31 INFO  BPCI_Rest_API: 178 - Active Admission Count is : 3
+07-11-2019 18:34:31 INFO  BPCI_Rest_API: 160 - ********Checking Active Episode Filter By LOS*********
+07-11-2019 18:34:31 INFO  BPCI_Rest_API: 166 - Active Admission Count is : 12
+07-11-2019 18:34:31 INFO  BPCI_Rest_API: 256 - ********Checking Active Episode Filter By Owner Name*********
+07-11-2019 18:34:32 INFO  BPCI_Rest_API: 262 - Active Admission Count is : 10
+07-11-2019 18:34:32 INFO  BPCI_Rest_API: 232 - ********Checking Active Episode Filter By Patient Name*********
+07-11-2019 18:34:32 INFO  BPCI_Rest_API: 238 - Active Admission Count is : 7
+07-11-2019 18:34:32 INFO  BPCI_Rest_API: 220 - ********Checking Active Episode Filter By Start Date*********
+07-11-2019 18:34:33 INFO  BPCI_Rest_API: 226 - Active Admission Count is : 9
+07-11-2019 18:34:33 INFO  BPCI_Rest_API: 37 - ********Checking Admision Count*********
+07-11-2019 18:34:33 INFO  BPCI_Rest_API: 41 - Admission Count is ==> 9
+07-11-2019 18:34:33 INFO  BPCI_Rest_API: 72 - ********Checking Content Length*********
+07-11-2019 18:34:33 INFO  BPCI_Rest_API: 74 - Content Length is ==> 20
+07-11-2019 18:34:33 INFO  BPCI_Rest_API: 64 - ********Checking Content Type*********
+07-11-2019 18:34:33 INFO  BPCI_Rest_API: 66 - Content Type is ==> application/json; charset=utf-8
+07-11-2019 18:34:33 INFO  BPCI_Rest_API: 100 - ********Checking Inactive Episode*********
+07-11-2019 18:34:33 INFO  BPCI_Rest_API: 106 - Inactive Admission Count is : 4
+07-11-2019 18:34:33 INFO  BPCI_Rest_API: 112 - ********Checking Observation Episode*********
+07-11-2019 18:34:34 INFO  BPCI_Rest_API: 118 - Inactive Admission Count is : 0
+07-11-2019 18:34:34 INFO  BPCI_Rest_API: 54 - ********Checking Response Time*********
+07-11-2019 18:34:34 INFO  BPCI_Rest_API: 56 - Response Time is ==> 511
+07-11-2019 18:34:34 INFO  BPCI_Rest_API: 80 - ********Checking Server Type*********
+07-11-2019 18:34:34 INFO  BPCI_Rest_API: 82 - Server Type is ==> Microsoft-IIS/8.5
+07-11-2019 18:34:34 INFO  BPCI_Rest_API: 29 - ********Checking Status Code*********
+07-11-2019 18:34:34 INFO  BPCI_Rest_API: 31 - Status Code is ==> 200
+07-11-2019 18:34:34 INFO  BPCI_Rest_API: 46 - ********Checking Status Line*********
+07-11-2019 18:34:34 INFO  BPCI_Rest_API: 48 - Status Line is ==> HTTP/1.1 200 OK
+07-11-2019 18:34:34 INFO  BPCI_Rest_API: 268 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-12-2019 11:23:33 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 11:23:38 INFO  BPCI_Rest_API: 38 - ********Checking Percentage Discharge to SNF*********
+07-12-2019 11:23:38 INFO  BPCI_Rest_API: 42 - Percentage Discharge to SNF is ==> 67
+07-12-2019 11:23:39 INFO  BPCI_Rest_API: 96 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 15:48:07 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 15:48:12 INFO  BPCI_Rest_API: 96 - "********Checking Percentage Discharge to SNF Filter By Episode ID*********"
+07-12-2019 15:48:16 INFO  BPCI_Rest_API: 108 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 15:49:39 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 15:49:44 INFO  BPCI_Rest_API: 96 - "********Checking Percentage Discharge to SNF Filter By Episode ID*********"
+07-12-2019 15:49:45 INFO  BPCI_Rest_API: 108 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 15:57:04 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 15:57:09 INFO  BPCI_Rest_API: 96 - "********Checking Percentage Discharge to SNF Filter By Episode ID*********"
+07-12-2019 15:57:10 INFO  BPCI_Rest_API: 108 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 16:01:09 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 16:01:15 INFO  BPCI_Rest_API: 96 - "********Checking Percentage Discharge to SNF Filter By Episode ID*********"
+07-12-2019 16:01:15 INFO  BPCI_Rest_API: 110 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 16:28:35 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 16:28:40 INFO  BPCI_Rest_API: 96 - "********Checking Percentage Discharge to SNF Filter By Episode ID*********"
+07-12-2019 16:28:42 INFO  BPCI_Rest_API: 108 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 16:30:11 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 16:30:16 INFO  BPCI_Rest_API: 96 - "********Checking Percentage Discharge to SNF Filter By Episode ID*********"
+07-12-2019 16:30:17 INFO  BPCI_Rest_API: 108 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 16:47:50 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 16:47:55 INFO  BPCI_Rest_API: 108 - "********Checking Percentage Discharge to SNF Filter By Episode Type*********"
+07-12-2019 16:47:56 INFO  BPCI_Rest_API: 114 - Discharge to SNF is : 67
+07-12-2019 16:47:56 INFO  BPCI_Rest_API: 120 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 17:46:37 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 17:46:42 INFO  BPCI_Rest_API: 120 - "********Checking Percentage Discharge to SNF Filter By Start Date*********"
+07-12-2019 17:46:43 INFO  BPCI_Rest_API: 126 - Discharge to SNF is : 100
+07-12-2019 17:46:43 INFO  BPCI_Rest_API: 132 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 17:50:50 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 17:50:55 INFO  BPCI_Rest_API: 132 - "********Checking Percentage Discharge to SNF Filter By Admit Date*********"
+07-12-2019 17:50:56 INFO  BPCI_Rest_API: 138 - Discharge to SNF is : 50
+07-12-2019 17:50:56 INFO  BPCI_Rest_API: 144 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 17:52:55 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 17:53:00 INFO  BPCI_Rest_API: 144 - "********Checking Percentage Discharge to SNF Filter By Discharge Date*********"
+07-12-2019 17:53:01 INFO  BPCI_Rest_API: 156 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 17:53:39 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-12-2019 17:53:44 INFO  BPCI_Rest_API: 144 - "********Checking Percentage Discharge to SNF Filter By Discharge Date*********"
+07-12-2019 17:53:45 INFO  BPCI_Rest_API: 150 - Discharge to SNF is : 50
+07-12-2019 17:53:45 INFO  BPCI_Rest_API: 156 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 12:53:22 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-15-2019 12:53:25 INFO  BPCI_Rest_API: 88 - ********Checking Active Episode*********
+07-15-2019 12:53:25 INFO  BPCI_Rest_API: 94 - Active Admission Count is : 13
+07-15-2019 12:53:25 INFO  BPCI_Rest_API: 244 - ********Checking Active Episode Filter By Current State*********
+07-15-2019 12:53:26 INFO  BPCI_Rest_API: 250 - Active Admission Count is : 3
+07-15-2019 12:53:26 INFO  BPCI_Rest_API: 148 - ********Checking Active Episode Filter By Discharge Date*********
+07-15-2019 12:53:27 INFO  BPCI_Rest_API: 154 - Active Admission Count is : 1
+07-15-2019 12:53:27 INFO  BPCI_Rest_API: 184 - ********Checking Active Episode Filter By Discharge Disposition*********
+07-15-2019 12:53:27 INFO  BPCI_Rest_API: 190 - Active Admission Count is : 2
+07-15-2019 12:53:27 INFO  BPCI_Rest_API: 124 - ********Checking Active Episode Filter By Episode Id*********
+07-15-2019 12:53:28 INFO  BPCI_Rest_API: 130 - Active Admission Count is : 1
+07-15-2019 12:53:28 INFO  BPCI_Rest_API: 196 - ********Checking Active Episode Filter By Facility Name*********
+07-15-2019 12:53:28 INFO  BPCI_Rest_API: 202 - Active Admission Count is : 1
+07-15-2019 12:53:28 INFO  BPCI_Rest_API: 172 - ********Checking Active Episode Filter By Initiator Name*********
+07-15-2019 12:53:29 INFO  BPCI_Rest_API: 178 - Active Admission Count is : 3
+07-15-2019 12:53:29 INFO  BPCI_Rest_API: 160 - ********Checking Active Episode Filter By LOS*********
+07-15-2019 12:53:29 INFO  BPCI_Rest_API: 166 - Active Admission Count is : 3
+07-15-2019 12:53:29 INFO  BPCI_Rest_API: 256 - ********Checking Active Episode Filter By Owner Name*********
+07-15-2019 12:53:30 INFO  BPCI_Rest_API: 262 - Active Admission Count is : 10
+07-15-2019 12:53:30 INFO  BPCI_Rest_API: 232 - ********Checking Active Episode Filter By Patient Name*********
+07-15-2019 12:53:30 INFO  BPCI_Rest_API: 238 - Active Admission Count is : 7
+07-15-2019 12:53:30 INFO  BPCI_Rest_API: 220 - ********Checking Active Episode Filter By Start Date*********
+07-15-2019 12:53:31 INFO  BPCI_Rest_API: 226 - Active Admission Count is : 9
+07-15-2019 12:53:31 INFO  BPCI_Rest_API: 37 - ********Checking Admision Count*********
+07-15-2019 12:53:31 INFO  BPCI_Rest_API: 41 - Admission Count is ==> 9
+07-15-2019 12:53:31 INFO  BPCI_Rest_API: 72 - ********Checking Content Length*********
+07-15-2019 12:53:31 INFO  BPCI_Rest_API: 74 - Content Length is ==> 20
+07-15-2019 12:53:31 INFO  BPCI_Rest_API: 64 - ********Checking Content Type*********
+07-15-2019 12:53:31 INFO  BPCI_Rest_API: 66 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 12:53:31 INFO  BPCI_Rest_API: 100 - ********Checking Inactive Episode*********
+07-15-2019 12:53:31 INFO  BPCI_Rest_API: 106 - Inactive Admission Count is : 4
+07-15-2019 12:53:31 INFO  BPCI_Rest_API: 112 - ********Checking Observation Episode*********
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 118 - Inactive Admission Count is : 0
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 54 - ********Checking Response Time*********
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 56 - Response Time is ==> 641
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 80 - ********Checking Server Type*********
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 82 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 29 - ********Checking Status Code*********
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 31 - Status Code is ==> 200
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 46 - ********Checking Status Line*********
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 48 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 268 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-15-2019 12:53:32 INFO  BPCI_Rest_API: 19 - ********started TC002_Get_AverageLOS*********
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 38 - ********Checking Average LOS*********
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 42 - Average LOS is ==> 13.0
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 77 - ********Checking Content Length*********
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 79 - Content Length is ==> 15
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 69 - ********Checking Content Type*********
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 71 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 59 - ********Checking Response Time*********
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 61 - Response Time is ==> 578
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 85 - ********Checking Server Type*********
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 87 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 29 - ********Checking Status Code*********
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 31 - Status Code is ==> 200
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 51 - ********Checking Status Line*********
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 53 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 93 - ********Finished TC002_Get_AverageLOS*********
+07-15-2019 12:53:34 INFO  BPCI_Rest_API: 20 - ********started TC003_Get_ProjectedCostPerYear*********
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 80 - ********Checking Content Length*********
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 82 - Content Length is ==> 27
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 72 - ********Checking Content Type*********
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 74 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 39 - ********Checking Projected Cost*********
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 43 - Projected Cost Per Year is ==> 166223.05
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 62 - ********Checking Response Time*********
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 64 - Response Time is ==> 531
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 88 - ********Checking Server Type*********
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 90 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 30 - ********Checking Status Code*********
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 32 - Status Code is ==> 200
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 54 - ********Checking Status Line*********
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 56 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 96 - ********Finished TC003_Get_ProjectedCostPerYear*********
+07-15-2019 12:53:37 INFO  BPCI_Rest_API: 18 - ********started TC004_Get_PercentageOfReadmission*********
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 78 - ********Checking Content Length*********
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 80 - Content Length is ==> 36
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 70 - ********Checking Content Type*********
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 72 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 37 - ********Checking Percentage of Readmission*********
+07-15-2019 12:53:42 WARN  BPCI_Rest_API: 45 - Percentage of Readmission is NULL.
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 60 - ********Checking Response Time*********
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 62 - Response Time is ==> 1367
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 86 - ********Checking Server Type*********
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 88 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 28 - ********Checking Status Code*********
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 30 - Status Code is ==> 500
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 52 - ********Checking Status Line*********
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 54 - Status Line is ==> HTTP/1.1 500 Internal Server Error
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 94 - ********Finished TC004_Get_PercentageOfReadmission*********
+07-15-2019 12:53:42 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 80 - ********Checking Content Length*********
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 82 - Content Length is ==> 19
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 72 - ********Checking Content Type*********
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 74 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 38 - ********Checking Percentage Discharge to SNF*********
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 42 - Percentage Discharge to SNF is ==> 67
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 62 - ********Checking Response Time*********
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 64 - Response Time is ==> 568
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 88 - ********Checking Server Type*********
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 90 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 29 - ********Checking Status Code*********
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 31 - Status Code is ==> 200
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 54 - ********Checking Status Line*********
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 56 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 12:53:45 INFO  BPCI_Rest_API: 132 - "********Checking Percentage Discharge to SNF Filter By Admit Date*********"
+07-15-2019 12:53:46 INFO  BPCI_Rest_API: 138 - Discharge to SNF is : 50
+07-15-2019 12:53:46 INFO  BPCI_Rest_API: 144 - "********Checking Percentage Discharge to SNF Filter By Discharge Date*********"
+07-15-2019 12:53:47 INFO  BPCI_Rest_API: 150 - Discharge to SNF is : 50
+07-15-2019 12:53:47 INFO  BPCI_Rest_API: 96 - "********Checking Percentage Discharge to SNF Filter By Episode ID*********"
+07-15-2019 12:53:47 INFO  BPCI_Rest_API: 102 - Discharge to SNF is : 100
+07-15-2019 12:53:47 INFO  BPCI_Rest_API: 108 - "********Checking Percentage Discharge to SNF Filter By Episode Type*********"
+07-15-2019 12:53:48 INFO  BPCI_Rest_API: 114 - Discharge to SNF is : 67
+07-15-2019 12:53:48 INFO  BPCI_Rest_API: 156 - "********Checking Percentage Discharge to SNF Filter By LOS*********"
+07-15-2019 12:53:48 INFO  BPCI_Rest_API: 162 - Discharge to SNF is : 50
+07-15-2019 12:53:48 INFO  BPCI_Rest_API: 120 - "********Checking Percentage Discharge to SNF Filter By Start Date*********"
+07-15-2019 12:53:49 INFO  BPCI_Rest_API: 126 - Discharge to SNF is : 100
+07-15-2019 12:53:49 INFO  BPCI_Rest_API: 168 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 12:53:49 INFO  BPCI_Rest_API: 21 - ********started TC006_Get_EpisodeSummary*********
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 156 - ********Checking Content Length*********
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 158 - Content Length is ==> 4707
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 148 - ********Checking Content Type*********
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 150 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 40 - ********Checking Episode Summary*********
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 1 is : 24
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 2 is : 25
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 3 is : 26
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 4 is : 27
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 5 is : 28
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 6 is : 29
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 7 is : 30
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 8 is : 31
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 9 is : 5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 10 is : 12
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 11 is : 14
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 12 is : 7
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 1 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 2 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 3 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 4 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 5 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 6 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 7 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 8 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 9 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 10 is : name2
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 11 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 12 is : name3
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 1 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 2 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 3 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 4 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 5 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 6 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 7 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 8 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 9 is : 04/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 10 is : 05/11/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 11 is : 05/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 53 - Start Date for Episode 12 is : 04/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 1 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 2 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 3 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 4 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 5 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 6 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 7 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 8 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 9 is : 05/20/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 10 is : 02/20/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 11 is : 02/20/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 12 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 1 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 2 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 3 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 4 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 5 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 6 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 7 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 8 is : 07/01/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 9 is : 05/10/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 10 is : 02/10/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 11 is : 02/10/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 12 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 1 is : 14
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 2 is : 14
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 3 is : 14
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 4 is : 14
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 5 is : 14
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 6 is : 14
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 7 is : 14
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 8 is : 14
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 9 is : 10
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 10 is : 10
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 11 is : 10
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 65 - LOS for Episode 12 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 1 is : Johny Joe Roh
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 2 is : Abhi Avi Singh
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 3 is : Abhi Avi Singh
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 4 is : Abhi Avi Singh
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 5 is : Abhi Avi Singh
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 6 is : Abhi Avi Singh
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 7 is : Abhi Avi Singh
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 8 is : Abhi Avi Singh
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 9 is : fullname5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 10 is : fullname7
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 11 is : fullname2
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 12 is : fullname6
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 1 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 2 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 3 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 4 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 5 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 6 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 7 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 8 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 9 is : DD1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 10 is : DD2
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 11 is : DD2
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 12 is : P
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 1 is : HOSPITAL
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 2 is : HOSPITAL
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 3 is : HOSPITAL
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 4 is : HOSPITAL
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 5 is : HOSPITAL
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 6 is : HOSPITAL
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 7 is : HOSPITAL
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 8 is : HOSPITAL
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 9 is : state1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 10 is : state1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 11 is : state1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 77 - State for Episode 12 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 1 is : owner1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 2 is : owner1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 3 is : owner1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 4 is : owner1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 5 is : owner1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 6 is : owner1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 7 is : owner1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 8 is : owner1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 9 is : owner5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 10 is : owner4
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 11 is : owner1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 81 - Owner for Episode 12 is : owner1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 1 is : Dr.V
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 2 is : Dr.V
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 3 is : Dr.V
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 4 is : Dr.V
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 5 is : Dr.V
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 6 is : Dr.V
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 7 is : Dr.V
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 8 is : Dr.V
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 9 is : Dr.Steve
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 10 is : Dr.Steve
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 11 is : Dr.Kabir
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 85 - Initiator for Episode 12 is : Dr.Kabir
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 1 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 2 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 3 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 4 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 5 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 6 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 7 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 8 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 9 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 10 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 11 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 12 is : 1
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 1 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 2 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 3 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 4 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 5 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 6 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 7 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 8 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 9 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 10 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 11 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 93 - Readmission for Episode 12 is : No
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 1 is : Appolo
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 2 is : Appolo
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 3 is : Appolo
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 4 is : Appolo
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 5 is : Appolo
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 6 is : Appolo
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 7 is : Appolo
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 8 is : Appolo
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 9 is : name5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 10 is : name2
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 11 is : name2
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 12 is : COCNP
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 1 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 2 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 3 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 4 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 5 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 6 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 7 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 8 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 9 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 10 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 11 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 101 - Severity for Episode 12 is : 
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 1 is : 09/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 2 is : 09/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 3 is : 09/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 4 is : 09/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 5 is : 09/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 6 is : 09/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 7 is : 09/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 8 is : 09/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 9 is : 06/30/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 10 is : 08/09/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 11 is : 07/30/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 105 - End Date for Episode 12 is : 06/30/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 1 is : 10/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 2 is : 10/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 3 is : 10/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 4 is : 10/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 5 is : 10/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 6 is : 10/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 7 is : 10/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 8 is : 10/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 9 is : 07/30/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 10 is : 09/08/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 11 is : 08/29/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 12 is : 07/30/2019
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 1 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 2 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 3 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 4 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 5 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 6 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 7 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 8 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 9 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 10 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 11 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 12 is : null
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 1 is : Active
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 2 is : Active
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 3 is : Active
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 4 is : Active
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 5 is : Active
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 6 is : Active
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 7 is : Active
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 8 is : Active
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 9 is : ACTIVE
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 10 is : ACTIVE
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 11 is : ACTIVE
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 117 - Status for Episode 12 is : ACTIVE
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 138 - ********Checking Response Time*********
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 140 - Response Time is ==> 563
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 164 - ********Checking Server Type*********
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 166 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 31 - ********Checking Status Code*********
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 33 - Status Code is ==> 200
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 130 - ********Checking Status Line*********
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 132 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 172 - ********Finished TC006_Get_Episode_Summary*********
+07-15-2019 12:53:53 INFO  BPCI_Rest_API: 21 - ********started TC007_Get_EpisodeSummaryDetails*********
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 150 - ********Checking Content Length*********
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 152 - Content Length is ==> 875
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 142 - ********Checking Content Type*********
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 144 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 40 - ********Checking Episode Summary Details*********
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 45 - Start Date for Episode is :12/1/2018 12:00:00 AM
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 46 - End Date for Episode is :4/30/2019 12:00:00 AM
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 48 - Description for Episode is : despriction2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 50 - InPatient for Episode is :inpatient2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 52 - OutPatient for Episode is :outpatient
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 54 - Status for Episode is :INACTIVE
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 56 - Source for Episode is :source1
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 60 - mbi for Members is : 102
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 62 - hcin for Memeber is :1012
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 64 - First Name for Memeber is :firstname2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 66 - Middle Name for Memeber is :middlename2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 68 - Last Name for Memeber is :lastname2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 70 - Full Name for Memeber is :fullname2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 72 - Source for Memeber is :null
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 77 - Owner ID for Owner is :2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 79 - Owner Nme for Owner is :owner2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 81 - source for Owner is :null
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 85 - Admitting Physician Name  for Provider is :AdmitingPhy2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 87 - Attending Physician Name  for Provider is :attendingphy2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 89 - Consulting Physician Name  for Provider is :ConsultingPhy2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 91 - Referring Physician Name  for Provider is :referPhy2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 95 - Facility ID is :0
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 97 - Facility Name is :name2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 99 - Source for Facility is :null
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 103 - Diagnosis Code is : DC1
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 105 - Source for Diagnosis is : source1
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 107 - Admit Date for Diagnosis is : 2/10/2019 12:00:00 AM
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 109 - Discharge Date for Diagnosis is : 2/23/2019 12:00:00 AM
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 111 - Discharge Dispostion for Diagnosis is : DD2
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 132 - ********Checking Response Time*********
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 134 - Response Time is ==> 711
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 158 - ********Checking Server Type*********
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 160 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 31 - ********Checking Status Code*********
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 33 - Status Code is ==> 200
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 124 - ********Checking Status Line*********
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 126 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 12:53:57 INFO  BPCI_Rest_API: 166 - ********Finished TC007_Get_EpisodeSummarydetails*********
+07-15-2019 13:08:15 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 13:08:20 INFO  BPCI_Rest_API: 156 - "********Checking Percentage Discharge to SNF Filter By LOS*********"
+07-15-2019 13:08:20 INFO  BPCI_Rest_API: 168 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 13:09:36 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 13:09:41 INFO  BPCI_Rest_API: 156 - "********Checking Percentage Discharge to SNF Filter By LOS*********"
+07-15-2019 13:09:42 INFO  BPCI_Rest_API: 162 - Discharge to SNF is : 67
+07-15-2019 13:09:42 INFO  BPCI_Rest_API: 168 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 13:10:45 INFO  BPCI_Rest_API: 21 - ********started TC006_Get_EpisodeSummary*********
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 156 - ********Checking Content Length*********
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 158 - Content Length is ==> 4707
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 148 - ********Checking Content Type*********
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 150 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 40 - ********Checking Episode Summary*********
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 1 is : 24
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 2 is : 25
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 3 is : 26
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 4 is : 27
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 5 is : 28
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 6 is : 29
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 7 is : 30
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 8 is : 31
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 9 is : 5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 10 is : 12
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 11 is : 14
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 45 - Episode ID for Episode 12 is : 7
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 1 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 2 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 3 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 4 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 5 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 6 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 7 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 8 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 9 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 10 is : name2
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 11 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 49 - Clinical Episode for Episode 12 is : name3
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 1 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 2 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 3 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 4 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 5 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 6 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 7 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 8 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 9 is : 04/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 10 is : 05/11/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 11 is : 05/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 53 - Start Date for Episode 12 is : 04/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 1 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 2 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 3 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 4 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 5 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 6 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 7 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 8 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 9 is : 05/20/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 10 is : 02/20/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 11 is : 02/20/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 57 - Discharge Date for Episode 12 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 1 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 2 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 3 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 4 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 5 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 6 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 7 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 8 is : 07/01/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 9 is : 05/10/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 10 is : 02/10/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 11 is : 02/10/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 61 - Admit Date for Episode 12 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 1 is : 14
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 2 is : 14
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 3 is : 14
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 4 is : 14
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 5 is : 14
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 6 is : 14
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 7 is : 14
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 8 is : 14
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 9 is : 10
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 10 is : 10
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 11 is : 10
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 65 - LOS for Episode 12 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 1 is : Johny Joe Roh
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 2 is : Abhi Avi Singh
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 3 is : Abhi Avi Singh
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 4 is : Abhi Avi Singh
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 5 is : Abhi Avi Singh
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 6 is : Abhi Avi Singh
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 7 is : Abhi Avi Singh
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 8 is : Abhi Avi Singh
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 9 is : fullname5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 10 is : fullname7
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 11 is : fullname2
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 69 - Patient Name for Episode 12 is : fullname6
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 1 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 2 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 3 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 4 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 5 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 6 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 7 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 8 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 9 is : DD1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 10 is : DD2
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 11 is : DD2
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 73 - Discharge Disposition for Episode 12 is : P
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 1 is : HOSPITAL
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 2 is : HOSPITAL
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 3 is : HOSPITAL
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 4 is : HOSPITAL
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 5 is : HOSPITAL
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 6 is : HOSPITAL
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 7 is : HOSPITAL
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 8 is : HOSPITAL
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 9 is : state1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 10 is : state1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 11 is : state1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 77 - State for Episode 12 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 1 is : owner1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 2 is : owner1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 3 is : owner1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 4 is : owner1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 5 is : owner1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 6 is : owner1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 7 is : owner1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 8 is : owner1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 9 is : owner5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 10 is : owner4
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 11 is : owner1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 81 - Owner for Episode 12 is : owner1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 1 is : Dr.V
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 2 is : Dr.V
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 3 is : Dr.V
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 4 is : Dr.V
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 5 is : Dr.V
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 6 is : Dr.V
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 7 is : Dr.V
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 8 is : Dr.V
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 9 is : Dr.Steve
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 10 is : Dr.Steve
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 11 is : Dr.Kabir
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 85 - Initiator for Episode 12 is : Dr.Kabir
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 1 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 2 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 3 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 4 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 5 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 6 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 7 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 8 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 9 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 10 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 11 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 89 - Number of Visits for Episode 12 is : 1
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 1 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 2 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 3 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 4 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 5 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 6 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 7 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 8 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 9 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 10 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 11 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 93 - Readmission for Episode 12 is : No
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 1 is : Appolo
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 2 is : Appolo
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 3 is : Appolo
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 4 is : Appolo
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 5 is : Appolo
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 6 is : Appolo
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 7 is : Appolo
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 8 is : Appolo
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 9 is : name5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 10 is : name2
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 11 is : name2
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 97 - Facility Name for Episode 12 is : COCNP
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 1 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 2 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 3 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 4 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 5 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 6 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 7 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 8 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 9 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 10 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 11 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 101 - Severity for Episode 12 is : 
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 1 is : 09/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 2 is : 09/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 3 is : 09/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 4 is : 09/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 5 is : 09/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 6 is : 09/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 7 is : 09/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 8 is : 09/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 9 is : 06/30/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 10 is : 08/09/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 11 is : 07/30/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 105 - End Date for Episode 12 is : 06/30/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 1 is : 10/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 2 is : 10/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 3 is : 10/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 4 is : 10/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 5 is : 10/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 6 is : 10/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 7 is : 10/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 8 is : 10/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 9 is : 07/30/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 10 is : 09/08/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 11 is : 08/29/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 109 - Observation End Date for Episode 12 is : 07/30/2019
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 1 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 2 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 3 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 4 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 5 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 6 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 7 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 8 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 9 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 10 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 11 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 113 - Total LOS for Episode 12 is : null
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 1 is : Active
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 2 is : Active
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 3 is : Active
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 4 is : Active
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 5 is : Active
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 6 is : Active
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 7 is : Active
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 8 is : Active
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 9 is : ACTIVE
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 10 is : ACTIVE
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 11 is : ACTIVE
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 117 - Status for Episode 12 is : ACTIVE
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 138 - ********Checking Response Time*********
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 140 - Response Time is ==> 938
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 164 - ********Checking Server Type*********
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 166 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 31 - ********Checking Status Code*********
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 33 - Status Code is ==> 200
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 130 - ********Checking Status Line*********
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 132 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 13:10:49 INFO  BPCI_Rest_API: 172 - ********Finished TC006_Get_Episode_Summary*********
+07-15-2019 13:10:50 INFO  BPCI_Rest_API: 20 - ********started TC003_Get_ProjectedCostPerYear*********
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 80 - ********Checking Content Length*********
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 82 - Content Length is ==> 27
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 72 - ********Checking Content Type*********
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 74 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 39 - ********Checking Projected Cost*********
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 43 - Projected Cost Per Year is ==> 166223.05
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 62 - ********Checking Response Time*********
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 64 - Response Time is ==> 640
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 88 - ********Checking Server Type*********
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 90 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 30 - ********Checking Status Code*********
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 32 - Status Code is ==> 200
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 54 - ********Checking Status Line*********
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 56 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 96 - ********Finished TC003_Get_ProjectedCostPerYear*********
+07-15-2019 13:10:53 INFO  BPCI_Rest_API: 18 - ********started TC004_Get_PercentageOfReadmission*********
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 78 - ********Checking Content Length*********
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 80 - Content Length is ==> 36
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 70 - ********Checking Content Type*********
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 72 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 37 - ********Checking Percentage of Readmission*********
+07-15-2019 13:10:57 WARN  BPCI_Rest_API: 45 - Percentage of Readmission is NULL.
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 60 - ********Checking Response Time*********
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 62 - Response Time is ==> 515
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 86 - ********Checking Server Type*********
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 88 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 28 - ********Checking Status Code*********
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 30 - Status Code is ==> 500
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 52 - ********Checking Status Line*********
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 54 - Status Line is ==> HTTP/1.1 500 Internal Server Error
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 94 - ********Finished TC004_Get_PercentageOfReadmission*********
+07-15-2019 13:10:57 INFO  BPCI_Rest_API: 19 - ********started TC002_Get_AverageLOS*********
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 38 - ********Checking Average LOS*********
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 42 - Average LOS is ==> 13.0
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 77 - ********Checking Content Length*********
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 79 - Content Length is ==> 15
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 69 - ********Checking Content Type*********
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 71 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 59 - ********Checking Response Time*********
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 61 - Response Time is ==> 500
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 85 - ********Checking Server Type*********
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 87 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 29 - ********Checking Status Code*********
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 31 - Status Code is ==> 200
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 51 - ********Checking Status Line*********
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 53 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 93 - ********Finished TC002_Get_AverageLOS*********
+07-15-2019 13:10:58 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-15-2019 13:11:00 INFO  BPCI_Rest_API: 88 - ********Checking Active Episode*********
+07-15-2019 13:11:00 INFO  BPCI_Rest_API: 94 - Active Admission Count is : 13
+07-15-2019 13:11:00 INFO  BPCI_Rest_API: 244 - ********Checking Active Episode Filter By Current State*********
+07-15-2019 13:11:01 INFO  BPCI_Rest_API: 250 - Active Admission Count is : 3
+07-15-2019 13:11:01 INFO  BPCI_Rest_API: 148 - ********Checking Active Episode Filter By Discharge Date*********
+07-15-2019 13:11:01 INFO  BPCI_Rest_API: 154 - Active Admission Count is : 1
+07-15-2019 13:11:01 INFO  BPCI_Rest_API: 184 - ********Checking Active Episode Filter By Discharge Disposition*********
+07-15-2019 13:11:02 INFO  BPCI_Rest_API: 190 - Active Admission Count is : 2
+07-15-2019 13:11:02 INFO  BPCI_Rest_API: 124 - ********Checking Active Episode Filter By Episode Id*********
+07-15-2019 13:11:02 INFO  BPCI_Rest_API: 130 - Active Admission Count is : 1
+07-15-2019 13:11:02 INFO  BPCI_Rest_API: 196 - ********Checking Active Episode Filter By Facility Name*********
+07-15-2019 13:11:03 INFO  BPCI_Rest_API: 202 - Active Admission Count is : 1
+07-15-2019 13:11:03 INFO  BPCI_Rest_API: 172 - ********Checking Active Episode Filter By Initiator Name*********
+07-15-2019 13:11:03 INFO  BPCI_Rest_API: 178 - Active Admission Count is : 3
+07-15-2019 13:11:04 INFO  BPCI_Rest_API: 160 - ********Checking Active Episode Filter By LOS*********
+07-15-2019 13:11:04 INFO  BPCI_Rest_API: 166 - Active Admission Count is : 3
+07-15-2019 13:11:04 INFO  BPCI_Rest_API: 256 - ********Checking Active Episode Filter By Owner Name*********
+07-15-2019 13:11:05 INFO  BPCI_Rest_API: 262 - Active Admission Count is : 10
+07-15-2019 13:11:05 INFO  BPCI_Rest_API: 232 - ********Checking Active Episode Filter By Patient Name*********
+07-15-2019 13:11:05 INFO  BPCI_Rest_API: 238 - Active Admission Count is : 7
+07-15-2019 13:11:05 INFO  BPCI_Rest_API: 220 - ********Checking Active Episode Filter By Start Date*********
+07-15-2019 13:11:06 INFO  BPCI_Rest_API: 226 - Active Admission Count is : 9
+07-15-2019 13:11:06 INFO  BPCI_Rest_API: 37 - ********Checking Admision Count*********
+07-15-2019 13:11:06 INFO  BPCI_Rest_API: 41 - Admission Count is ==> 9
+07-15-2019 13:11:06 INFO  BPCI_Rest_API: 72 - ********Checking Content Length*********
+07-15-2019 13:11:06 INFO  BPCI_Rest_API: 74 - Content Length is ==> 20
+07-15-2019 13:11:06 INFO  BPCI_Rest_API: 64 - ********Checking Content Type*********
+07-15-2019 13:11:06 INFO  BPCI_Rest_API: 66 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 13:11:06 INFO  BPCI_Rest_API: 100 - ********Checking Inactive Episode*********
+07-15-2019 13:11:06 INFO  BPCI_Rest_API: 106 - Inactive Admission Count is : 4
+07-15-2019 13:11:06 INFO  BPCI_Rest_API: 112 - ********Checking Observation Episode*********
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 118 - Inactive Admission Count is : 0
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 54 - ********Checking Response Time*********
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 56 - Response Time is ==> 502
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 80 - ********Checking Server Type*********
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 82 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 29 - ********Checking Status Code*********
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 31 - Status Code is ==> 200
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 46 - ********Checking Status Line*********
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 48 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 268 - ********Finished TC001_Get_ActiveAdmissionCount*********
+07-15-2019 13:11:07 INFO  BPCI_Rest_API: 21 - ********started TC007_Get_EpisodeSummaryDetails*********
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 150 - ********Checking Content Length*********
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 152 - Content Length is ==> 875
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 142 - ********Checking Content Type*********
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 144 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 40 - ********Checking Episode Summary Details*********
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 45 - Start Date for Episode is :12/1/2018 12:00:00 AM
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 46 - End Date for Episode is :4/30/2019 12:00:00 AM
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 48 - Description for Episode is : despriction2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 50 - InPatient for Episode is :inpatient2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 52 - OutPatient for Episode is :outpatient
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 54 - Status for Episode is :INACTIVE
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 56 - Source for Episode is :source1
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 60 - mbi for Members is : 102
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 62 - hcin for Memeber is :1012
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 64 - First Name for Memeber is :firstname2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 66 - Middle Name for Memeber is :middlename2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 68 - Last Name for Memeber is :lastname2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 70 - Full Name for Memeber is :fullname2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 72 - Source for Memeber is :null
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 77 - Owner ID for Owner is :2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 79 - Owner Nme for Owner is :owner2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 81 - source for Owner is :null
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 85 - Admitting Physician Name  for Provider is :AdmitingPhy2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 87 - Attending Physician Name  for Provider is :attendingphy2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 89 - Consulting Physician Name  for Provider is :ConsultingPhy2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 91 - Referring Physician Name  for Provider is :referPhy2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 95 - Facility ID is :0
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 97 - Facility Name is :name2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 99 - Source for Facility is :null
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 103 - Diagnosis Code is : DC1
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 105 - Source for Diagnosis is : source1
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 107 - Admit Date for Diagnosis is : 2/10/2019 12:00:00 AM
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 109 - Discharge Date for Diagnosis is : 2/23/2019 12:00:00 AM
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 111 - Discharge Dispostion for Diagnosis is : DD2
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 132 - ********Checking Response Time*********
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 134 - Response Time is ==> 702
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 158 - ********Checking Server Type*********
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 160 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 31 - ********Checking Status Code*********
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 33 - Status Code is ==> 200
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 124 - ********Checking Status Line*********
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 126 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 166 - ********Finished TC007_Get_EpisodeSummarydetails*********
+07-15-2019 13:11:10 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 80 - ********Checking Content Length*********
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 82 - Content Length is ==> 19
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 72 - ********Checking Content Type*********
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 74 - Content Type is ==> application/json; charset=utf-8
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 38 - ********Checking Percentage Discharge to SNF*********
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 42 - Percentage Discharge to SNF is ==> 67
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 62 - ********Checking Response Time*********
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 64 - Response Time is ==> 506
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 88 - ********Checking Server Type*********
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 90 - Server Type is ==> Microsoft-IIS/8.5
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 29 - ********Checking Status Code*********
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 31 - Status Code is ==> 200
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 54 - ********Checking Status Line*********
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 56 - Status Line is ==> HTTP/1.1 200 OK
+07-15-2019 13:11:14 INFO  BPCI_Rest_API: 168 - "********Checking Percentage Discharge to SNF Filter By LOS*********"
+07-15-2019 13:11:15 INFO  BPCI_Rest_API: 174 - Discharge to SNF is : 67
+07-15-2019 13:11:15 INFO  BPCI_Rest_API: 132 - "********Checking Percentage Discharge to SNF Filter By Admit Date*********"
+07-15-2019 13:11:15 INFO  BPCI_Rest_API: 138 - Discharge to SNF is : 50
+07-15-2019 13:11:15 INFO  BPCI_Rest_API: 144 - "********Checking Percentage Discharge to SNF Filter By Discharge Date*********"
+07-15-2019 13:11:16 INFO  BPCI_Rest_API: 150 - Discharge to SNF is : 50
+07-15-2019 13:11:16 INFO  BPCI_Rest_API: 96 - "********Checking Percentage Discharge to SNF Filter By Episode ID*********"
+07-15-2019 13:11:16 INFO  BPCI_Rest_API: 102 - Discharge to SNF is : 100
+07-15-2019 13:11:16 INFO  BPCI_Rest_API: 108 - "********Checking Percentage Discharge to SNF Filter By Episode Type*********"
+07-15-2019 13:11:17 INFO  BPCI_Rest_API: 114 - Discharge to SNF is : 67
+07-15-2019 13:11:17 INFO  BPCI_Rest_API: 156 - "********Checking Percentage Discharge to SNF Filter By LOS*********"
+07-15-2019 13:11:17 INFO  BPCI_Rest_API: 162 - Discharge to SNF is : 67
+07-15-2019 13:11:17 INFO  BPCI_Rest_API: 120 - "********Checking Percentage Discharge to SNF Filter By Start Date*********"
+07-15-2019 13:11:18 INFO  BPCI_Rest_API: 126 - Discharge to SNF is : 100
+07-15-2019 13:11:18 INFO  BPCI_Rest_API: 180 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 15:40:40 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 15:40:44 INFO  BPCI_Rest_API: 168 - "********Checking Percentage Discharge to SNF Filter By Patient Name*********"
+07-15-2019 15:40:45 INFO  BPCI_Rest_API: 174 - Discharge to SNF is : 100
+07-15-2019 15:40:45 INFO  BPCI_Rest_API: 180 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 15:49:17 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 15:49:22 INFO  BPCI_Rest_API: 180 - "********Checking Percentage Discharge to SNF Filter By Discharge Disposition*********"
+07-15-2019 15:49:23 INFO  BPCI_Rest_API: 186 - Discharge to SNF is : 100
+07-15-2019 15:49:23 INFO  BPCI_Rest_API: 192 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 15:52:17 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 15:52:21 INFO  BPCI_Rest_API: 192 - "********Checking Percentage Discharge to SNF Filter By Owner Name*********"
+07-15-2019 15:52:22 INFO  BPCI_Rest_API: 198 - Discharge to SNF is : 100
+07-15-2019 15:52:22 INFO  BPCI_Rest_API: 216 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:02:30 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:02:35 INFO  BPCI_Rest_API: 204 - "********Checking Percentage Discharge to SNF Filter By Facility Name*********"
+07-15-2019 16:02:36 INFO  BPCI_Rest_API: 210 - Discharge to SNF is : 50
+07-15-2019 16:02:36 INFO  BPCI_Rest_API: 264 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:06:41 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:06:46 INFO  BPCI_Rest_API: 216 - "********Checking Percentage Discharge to SNF Filter By End Date*********"
+07-15-2019 16:06:47 INFO  BPCI_Rest_API: 222 - Discharge to SNF is : 100
+07-15-2019 16:06:47 INFO  BPCI_Rest_API: 264 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:15:46 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:15:55 INFO  BPCI_Rest_API: 228 - "********Checking Percentage Discharge to SNF Filter By Observation Date*********"
+07-15-2019 16:15:56 INFO  BPCI_Rest_API: 234 - Discharge to SNF is : 67
+07-15-2019 16:15:56 INFO  BPCI_Rest_API: 264 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:16:31 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:16:37 INFO  BPCI_Rest_API: 228 - "********Checking Percentage Discharge to SNF Filter By Observation Date*********"
+07-15-2019 16:16:38 INFO  BPCI_Rest_API: 234 - Discharge to SNF is : 67
+07-15-2019 16:16:38 INFO  BPCI_Rest_API: 264 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:22:13 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:22:18 INFO  BPCI_Rest_API: 240 - "********Checking Percentage Discharge to SNF Filter By State*********"
+07-15-2019 16:22:19 INFO  BPCI_Rest_API: 246 - Discharge to SNF is : 67
+07-15-2019 16:22:19 INFO  BPCI_Rest_API: 264 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:24:07 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:24:12 INFO  BPCI_Rest_API: 252 - "********Checking Percentage Discharge to SNF Filter By status*********"
+07-15-2019 16:24:13 INFO  BPCI_Rest_API: 258 - Discharge to SNF is : 67
+07-15-2019 16:24:13 INFO  BPCI_Rest_API: 264 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:27:30 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:27:35 INFO  BPCI_Rest_API: 264 - "********Checking Percentage Discharge to SNF Filter By Initiator*********"
+07-15-2019 16:27:36 INFO  BPCI_Rest_API: 270 - Discharge to SNF is : 67
+07-15-2019 16:27:36 INFO  BPCI_Rest_API: 276 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:40:41 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:40:46 INFO  BPCI_Rest_API: 276 - "********Checking Percentage Discharge to SNF Filter By Default*********"
+07-15-2019 16:40:48 INFO  BPCI_Rest_API: 285 - Discharge to SNF is : 67
+07-15-2019 16:40:48 INFO  BPCI_Rest_API: 286 - Default SNF is : 67
+07-15-2019 16:40:48 INFO  BPCI_Rest_API: 290 - Pass
+07-15-2019 16:40:48 INFO  BPCI_Rest_API: 299 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:52:46 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:52:51 INFO  BPCI_Rest_API: 299 - "********Checking Percentage Discharge to SNF Filter By Inactive*********"
+07-15-2019 16:52:52 INFO  BPCI_Rest_API: 305 - Discharge to SNF is : 80
+07-15-2019 16:52:52 INFO  BPCI_Rest_API: 311 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:53:10 INFO  BPCI_Rest_API: 19 - ********started TC005_Get_PercentageDischargeToSNF*********
+07-15-2019 16:53:15 INFO  BPCI_Rest_API: 299 - "********Checking Percentage Discharge to SNF Filter By Inactive*********"
+07-15-2019 16:53:16 INFO  BPCI_Rest_API: 305 - Discharge to SNF is : 80
+07-15-2019 16:53:16 INFO  BPCI_Rest_API: 311 - ********Finished TC005_Get_PercentageDischargeToSNF*********

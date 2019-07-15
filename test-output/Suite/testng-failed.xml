@@ -6,30 +6,31 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.bpci.testCases.TC005_Get_PercentageDischargeToSNF">
-        <methods>
-          <include name="tearDown"/>
-          <include name="getActiveAdmissionCount"/>
-          <include name="setup"/>
-          <include name="checkPercentageDischargeToSNF"/>
-        </methods>
-      </class> <!-- com.bpci.testCases.TC005_Get_PercentageDischargeToSNF -->
-      <class name="com.bpci.testCases.TC003_Get_ProjectedCostPerYear">
-        <methods>
-          <include name="tearDown"/>
-          <include name="checkProjectedCost"/>
-          <include name="setup"/>
-          <include name="getActiveAdmissionCount"/>
-        </methods>
-      </class> <!-- com.bpci.testCases.TC003_Get_ProjectedCostPerYear -->
       <class name="com.bpci.testCases.TC004_Get_PercentageOfReadmission">
         <methods>
           <include name="tearDown"/>
+          <include name="checkStatusLine"/>
           <include name="getActiveAdmissionCount"/>
+          <include name="checkStatusCode"/>
           <include name="setup"/>
-          <include name="checkPercentageOfReadmission"/>
         </methods>
       </class> <!-- com.bpci.testCases.TC004_Get_PercentageOfReadmission -->
+      <class name="com.bpci.testCases.TC001_Get_ActiveAdmissionCount">
+        <methods>
+          <include name="checkActiveEpisodeFilterByLOS"/>
+          <include name="getActiveAdmissionCount"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC001_Get_ActiveAdmissionCount -->
+      <class name="com.bpci.testCases.TC006_Get_EpisodeSummary">
+        <methods>
+          <include name="getEpisodeSummary"/>
+          <include name="setup"/>
+          <include name="checkContentLength"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC006_Get_EpisodeSummary -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
