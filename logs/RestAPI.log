@@ -1390,3 +1390,8 @@
 07-15-2019 16:53:15 INFO  BPCI_Rest_API: 299 - "********Checking Percentage Discharge to SNF Filter By Inactive*********"
 07-15-2019 16:53:16 INFO  BPCI_Rest_API: 305 - Discharge to SNF is : 80
 07-15-2019 16:53:16 INFO  BPCI_Rest_API: 311 - ********Finished TC005_Get_PercentageDischargeToSNF*********
+07-16-2019 11:16:14 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-16-2019 11:18:22 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
+07-16-2019 11:18:31 INFO  BPCI_Rest_API: 148 - ********Checking Active Episode Filter By Discharge Date*********
+07-16-2019 11:18:32 INFO  BPCI_Rest_API: 154 - Active Admission Count is : 1
+07-16-2019 11:18:32 INFO  BPCI_Rest_API: 268 - ********Finished TC001_Get_ActiveAdmissionCount*********

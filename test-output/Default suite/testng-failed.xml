@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bpci.testCases.TC005_Get_PercentageDischargeToSNF">
+      <class name="com.bpci.testCases.TC001_Get_ActiveAdmissionCount">
         <methods>
-          <include name="tearDown"/>
           <include name="getActiveAdmissionCount"/>
+          <include name="checkActiveEpisodeFilterByDischargeDate"/>
           <include name="setup"/>
-          <include name="validatePercentageDischargeToSNFFilterByInactive"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.bpci.testCases.TC005_Get_PercentageDischargeToSNF -->
+      </class> <!-- com.bpci.testCases.TC001_Get_ActiveAdmissionCount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
