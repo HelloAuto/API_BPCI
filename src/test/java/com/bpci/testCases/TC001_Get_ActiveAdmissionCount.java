@@ -39,6 +39,7 @@ public class TC001_Get_ActiveAdmissionCount extends TestBase{
 		JsonPath jsonpath = response.jsonPath();
 		int i = jsonpath.get("AdmissionCount");
 		logger.info("Admission Count is ==> "+i);
+		System.out.println(i);
 	}
 	
 	@Test

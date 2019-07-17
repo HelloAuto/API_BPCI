@@ -1,0 +1,140 @@
+07-17-2019 11:08:11 INFO  BPCI_Rest_API: 22 - ********started TC014_Get_Initiator_Name*********
+07-17-2019 11:08:25 INFO  BPCI_Rest_API: 41 - ********Checking Initiator details *********
+07-17-2019 11:08:25 INFO  BPCI_Rest_API: 48 - Initiator ID is : 2
+07-17-2019 11:08:25 INFO  BPCI_Rest_API: 49 - Initiator Name is : Dr.Kabir
+07-17-2019 11:08:28 INFO  BPCI_Rest_API: 108 - ********Finished TC006_Get_Episode_Summary*********
+07-17-2019 11:11:29 INFO  BPCI_Rest_API: 22 - ********started TC014_Get_Initiator_Name*********
+07-17-2019 11:11:34 INFO  BPCI_Rest_API: 41 - ********Checking Initiator details *********
+07-17-2019 11:11:34 INFO  BPCI_Rest_API: 48 - Initiator ID is : 2
+07-17-2019 11:11:34 INFO  BPCI_Rest_API: 49 - Initiator Name is : Dr.Kabir
+07-17-2019 11:11:37 INFO  BPCI_Rest_API: 32 - 2 Dr.Kabir
+07-17-2019 11:11:37 INFO  BPCI_Rest_API: 108 - ********Finished TC006_Get_Episode_Summary*********
+07-17-2019 11:14:42 INFO  BPCI_Rest_API: 22 - ********started TC014_Get_Initiator_Name*********
+07-17-2019 11:14:47 INFO  BPCI_Rest_API: 41 - ********Checking Initiator details *********
+07-17-2019 11:14:47 INFO  BPCI_Rest_API: 48 - Initiator ID is : 2
+07-17-2019 11:14:47 INFO  BPCI_Rest_API: 49 - Initiator Name is : Dr.Kabir
+07-17-2019 11:14:49 INFO  BPCI_Rest_API: 33 - 2 Dr.Kabir
+07-17-2019 11:14:51 INFO  BPCI_Rest_API: 33 - 2 Dr.Kabir
+07-17-2019 11:14:51 INFO  BPCI_Rest_API: 108 - ********Finished TC006_Get_Episode_Summary*********
+07-17-2019 13:11:48 INFO  BPCI_Rest_API: 21 - ********started Get Request validation*********
+07-17-2019 13:13:31 INFO  BPCI_Rest_API: 21 - ********started Get Request validation*********
+07-17-2019 13:24:21 INFO  BPCI_Rest_API: 21 - ********started Get Request validation*********
+07-17-2019 13:25:08 INFO  BPCI_Rest_API: 21 - ********started Get Request validation*********
+07-17-2019 13:26:33 INFO  BPCI_Rest_API: 21 - ********started Get Request validation*********
+07-17-2019 13:26:35 INFO  BPCI_Rest_API: 39 - 200
+07-17-2019 13:26:36 INFO  BPCI_Rest_API: 39 - 200
+07-17-2019 13:28:24 INFO  BPCI_Rest_API: 21 - ********started Get Request validation*********
+07-17-2019 13:28:26 INFO  BPCI_Rest_API: 38 - /getActiveAdmissionCount
+07-17-2019 13:28:26 INFO  BPCI_Rest_API: 40 - 200
+07-17-2019 13:28:26 INFO  BPCI_Rest_API: 38 - /getAverageLOS
+07-17-2019 13:28:26 INFO  BPCI_Rest_API: 40 - 200
+07-17-2019 14:32:48 INFO  BPCI_Rest_API: 22 - ********started Get Request validation*********
+07-17-2019 14:32:50 INFO  BPCI_Rest_API: 39 - /getActiveAdmissionCount
+07-17-2019 14:32:50 INFO  BPCI_Rest_API: 42 - 200
+07-17-2019 14:32:50 INFO  BPCI_Rest_API: 39 - /getActiveAdmissionCount
+07-17-2019 14:32:50 INFO  BPCI_Rest_API: 42 - 200
+07-17-2019 14:32:51 INFO  BPCI_Rest_API: 39 - /getAverageLOS
+07-17-2019 14:32:51 INFO  BPCI_Rest_API: 42 - 200
+07-17-2019 14:33:50 INFO  BPCI_Rest_API: 22 - ********started Get Request validation*********
+07-17-2019 14:33:52 INFO  BPCI_Rest_API: 39 - /getActiveAdmissionCount
+07-17-2019 14:33:52 INFO  BPCI_Rest_API: 42 - 200
+07-17-2019 14:33:53 INFO  BPCI_Rest_API: 39 - /getActiveAdmissionCount?status=inactive
+07-17-2019 14:33:53 INFO  BPCI_Rest_API: 42 - 200
+07-17-2019 14:33:53 INFO  BPCI_Rest_API: 39 - /getAverageLOS
+07-17-2019 14:33:53 INFO  BPCI_Rest_API: 42 - 200
+07-17-2019 14:59:18 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 14:59:26 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 14:59:26 INFO  BPCI_Rest_API: 28 - Response
+07-17-2019 14:59:26 INFO  BPCI_Rest_API: 28 - AdmissionCount
+07-17-2019 14:59:26 INFO  BPCI_Rest_API: 28 - 
+07-17-2019 15:02:01 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 15:02:03 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 15:02:03 INFO  BPCI_Rest_API: 28 - Query
+07-17-2019 15:02:03 INFO  BPCI_Rest_API: 28 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:02:06 INFO  BPCI_Rest_API: 42 - 13
+07-17-2019 15:02:06 INFO  BPCI_Rest_API: 47 - 200
+07-17-2019 15:02:06 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount?status=inactive
+07-17-2019 15:02:06 INFO  BPCI_Rest_API: 28 - Query
+07-17-2019 15:02:06 INFO  BPCI_Rest_API: 28 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:02:08 INFO  BPCI_Rest_API: 42 - 13
+07-17-2019 15:04:45 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 15:04:48 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 15:04:48 INFO  BPCI_Rest_API: 28 - Query
+07-17-2019 15:04:48 INFO  BPCI_Rest_API: 28 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:04:50 INFO  BPCI_Rest_API: 42 - 13
+07-17-2019 15:04:50 INFO  BPCI_Rest_API: 47 - 200
+07-17-2019 15:04:51 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount?status=inactive
+07-17-2019 15:04:51 INFO  BPCI_Rest_API: 28 - Query
+07-17-2019 15:04:51 INFO  BPCI_Rest_API: 28 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:04:52 INFO  BPCI_Rest_API: 42 - 13
+07-17-2019 15:06:38 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 15:06:41 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 15:06:41 INFO  BPCI_Rest_API: 29 - Query
+07-17-2019 15:06:41 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:06:43 INFO  BPCI_Rest_API: 43 - 13
+07-17-2019 15:06:43 INFO  BPCI_Rest_API: 47 - 200
+07-17-2019 15:06:43 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount?status=inactive
+07-17-2019 15:06:43 INFO  BPCI_Rest_API: 29 - Query
+07-17-2019 15:06:43 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:06:45 INFO  BPCI_Rest_API: 43 - 13
+07-17-2019 15:12:03 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 15:12:05 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 15:12:06 INFO  BPCI_Rest_API: 29 - Query
+07-17-2019 15:13:26 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 15:13:28 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 15:13:29 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:13:31 INFO  BPCI_Rest_API: 43 - 13
+07-17-2019 15:13:31 INFO  BPCI_Rest_API: 47 - 200
+07-17-2019 15:13:31 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount?status=inactive
+07-17-2019 15:13:31 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'INACTIVE'
+07-17-2019 15:13:33 INFO  BPCI_Rest_API: 43 - 4
+07-17-2019 15:13:33 INFO  BPCI_Rest_API: 47 - 200
+07-17-2019 15:23:48 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 15:23:51 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 15:23:51 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:23:53 INFO  BPCI_Rest_API: 43 - 13
+07-17-2019 15:23:53 INFO  BPCI_Rest_API: 47 - 200
+07-17-2019 15:24:12 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 15:24:15 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 15:24:15 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:24:17 INFO  BPCI_Rest_API: 43 - 13
+07-17-2019 15:24:17 INFO  BPCI_Rest_API: 47 - 200
+07-17-2019 15:24:18 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount?status=inactive
+07-17-2019 15:24:18 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'INACTIVE'
+07-17-2019 15:24:19 INFO  BPCI_Rest_API: 43 - 4
+07-17-2019 15:24:19 INFO  BPCI_Rest_API: 47 - 200
+07-17-2019 15:52:37 INFO  BPCI_Rest_API: 23 - ********started Get Request validation*********
+07-17-2019 15:52:45 INFO  BPCI_Rest_API: 40 - /getActiveAdmissionCount
+07-17-2019 15:52:45 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:52:48 INFO  BPCI_Rest_API: 43 - 13
+07-17-2019 15:52:48 INFO  BPCI_Rest_API: 46 - 200
+07-17-2019 15:52:49 INFO  BPCI_Rest_API: 40 - /getActiveAdmissionCount?status=active
+07-17-2019 15:52:49 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'INACTIVE'
+07-17-2019 15:52:51 INFO  BPCI_Rest_API: 43 - 4
+07-17-2019 15:56:03 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 15:56:06 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 15:56:06 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 15:56:08 INFO  BPCI_Rest_API: 43 - 13
+07-17-2019 15:56:09 INFO  BPCI_Rest_API: 52 - 200
+07-17-2019 15:56:09 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount?status=active
+07-17-2019 15:56:09 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'INACTIVE'
+07-17-2019 15:56:11 INFO  BPCI_Rest_API: 43 - 4
+07-17-2019 15:56:11 INFO  BPCI_Rest_API: 52 - 200
+07-17-2019 16:53:12 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 16:53:21 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 16:53:21 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 16:53:23 INFO  BPCI_Rest_API: 43 - 13
+07-17-2019 16:53:23 INFO  BPCI_Rest_API: 52 - 200
+07-17-2019 16:53:24 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount?status=inactive
+07-17-2019 16:53:24 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'INACTIVE'
+07-17-2019 16:53:26 INFO  BPCI_Rest_API: 43 - 4
+07-17-2019 16:53:26 INFO  BPCI_Rest_API: 52 - 200
+07-17-2019 16:54:23 INFO  BPCI_Rest_API: 24 - ********started Get Request validation*********
+07-17-2019 16:54:26 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount
+07-17-2019 16:54:27 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'ACTIVE'
+07-17-2019 16:54:29 INFO  BPCI_Rest_API: 43 - 13
+07-17-2019 16:54:30 INFO  BPCI_Rest_API: 52 - 200
+07-17-2019 16:54:30 INFO  BPCI_Rest_API: 41 - /getActiveAdmissionCount?status=active
+07-17-2019 16:54:30 INFO  BPCI_Rest_API: 29 - select count(*) from tbl_Episode where status = 'INACTIVE'
+07-17-2019 16:54:32 INFO  BPCI_Rest_API: 43 - 4
+07-17-2019 16:54:32 INFO  BPCI_Rest_API: 52 - 200

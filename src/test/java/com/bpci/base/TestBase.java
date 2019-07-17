@@ -18,7 +18,7 @@ public class TestBase {
 	public String uri="http://192.61.99.40:8089/api/values";
 	public static Logger logger;
 	public int episodeid = 2;
-	Properties prop;
+	protected static Properties prop;
 	
 	public TestBase() {
 		try {

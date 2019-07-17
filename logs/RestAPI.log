@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 07-03-2019 18:31:30 INFO  BPCI_Rest_API: 19 - ********started TC001_Get_ActiveAdmissionCount*********
 07-03-2019 18:31:33 INFO  BPCI_Rest_API: 37 - ********Checking Admision Count*********
 07-03-2019 18:31:33 INFO  BPCI_Rest_API: 41 - Admission Count is ==> 5
@@ -1395,3 +1396,5 @@
 07-16-2019 11:18:31 INFO  BPCI_Rest_API: 148 - ********Checking Active Episode Filter By Discharge Date*********
 07-16-2019 11:18:32 INFO  BPCI_Rest_API: 154 - Active Admission Count is : 1
 07-16-2019 11:18:32 INFO  BPCI_Rest_API: 268 - ********Finished TC001_Get_ActiveAdmissionCount*********
+=======
+>>>>>>> e917704c0aaec8a4698bfcaf7dff6b344aebdfb0

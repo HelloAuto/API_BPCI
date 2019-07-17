@@ -10,6 +10,7 @@ import com.bpci.base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 
 public class TC002_Get_AverageLOS extends TestBase{
 	
@@ -87,6 +88,139 @@ public class TC002_Get_AverageLOS extends TestBase{
 		logger.info("Server Type is ==> "+serverType);
 		Assert.assertEquals(serverType, "Microsoft-IIS/8.5");
 	}
+	
+	@Test
+	void checkAvgLosForActiveStatus() {
+		logger.info("*******Checking checkAvgLosForActiveStatus********* ");
+		RestAssured.baseURI = uri;
+		
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"/getAverageLos?status=active");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 10f);	
+	}
+	@Test
+	void checkAvgLosForInactiveStatus() {
+		logger.info("*******Checking checkAvgLosForInactiveStatus********* ");
+		RestAssured.baseURI = uri;
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"/getAverageLos?status=inactive");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 9f);	
+		
+	}
+	@Test
+	void checkAvgLosForEpisodeIdFilter() {
+		logger.info("*******Checking checkAvgLosForEpisodeIdFilter********* ");
+		RestAssured.baseURI = "http://192.61.99.40:8088/api/values/getAverageLOS?episodeId=339";
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"?episodeId=339");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 3f);	
+		
+	}
+	@Test
+	void checkAvgLosForClinicalEpisodeFilter() {
+		logger.info("*******Checking checkAvgLosForClinicalEpisodeFilter********* ");
+		RestAssured.baseURI = "http://192.61.99.40:8089/api/values/getAverageLOS";
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"?status=active&clinicalepisode=name5");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 10f);	
+		
+	}
+	@Test
+	void checkAvgLosForStartDateFilter() {
+		logger.info("*******Checking checkAvgLosForStartDateFilter********* ");
+		RestAssured.baseURI = "http://192.61.99.40:8088/api/values/getAverageLos";
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"?status=inactive&startDate=2002-06-14 00:00:00.000");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 3f);		
+	}
+	@Test
+	void checkAvgLosForDischargeDate() {
+		logger.info("*******Checking checkAvgLosForStartDateFilter********* ");
+		RestAssured.baseURI = "http://192.61.99.40:8088/api/values/getAverageLos";
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"?dischargeDate=2019-06-17 00:00:00.000");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 13f);	
+		
+	}
+	@Test
+	void checkAvgLosForPatientFilter() {
+		logger.info("*******Checking checkAvgLocForPatientFilter********* ");
+		RestAssured.baseURI = "http://192.61.99.40:8089/api/values/getAverageLos";
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"?patientName=Abhi Avi Singh");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 10f);	
+		
+	}
+	@Test
+	void checkAvgLosForInitiator() {
+		logger.info("*******Checking checkAvgLosForInitiator********* ");
+		RestAssured.baseURI = "http://192.61.99.40:8089/api/values/getAverageLos";
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"?initiator =Dr.Kabir");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 10f);	
+		
+	}
+	@Test
+	void checkAvgLosForDischargeDisposition() {
+		logger.info("*******Checking checkAvgLosForDischargeDisposition********* ");
+		RestAssured.baseURI = "http://192.61.99.40:8089/api/values/getAverageLos";
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"?dischargeDisposition=DD1&status=active");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 10f);	
+		
+	}
+	@Test
+	void checkAvgLosForOwnerFilter() {
+		logger.info("*******Checking checkAvgLosForOwnerFilter********* ");
+		RestAssured.baseURI = "http://192.61.99.40:8089/api/values/getAverageLos";
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"?owner=owner1");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 10f);	
+		
+	}
+	@Test
+	void checkAvgLosForFacilityId() {
+		logger.info("*******Checking checkAvgLosForFacilityId********* ");
+		RestAssured.baseURI = "http://192.61.99.40:8089/api/values/getAverageLos";
+		httpRequest = RestAssured.given();
+		response = httpRequest.request(Method.GET,"?facilityid=20");
+	    JsonPath json=response.jsonPath();
+	    float average=json.get("AvgLOS");
+	    logger.info(average);
+	    Assert.assertEquals(average, 10f);	
+	}
+		
+		
 	
 	@AfterClass 
 	void tearDown() {
