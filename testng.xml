@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Default suite" guice-stage="DEVELOPMENT">
-<listeners>
-	<listener class-name="com.bpci.utilities.Listeners"/>
-</listeners>
-  <test thread-count="5" name="Default test" verbose="2">
+<suite name="Suite">
+ <listeners>
+		<listener class-name="com.bpci.utilities.Listeners" />
+	</listeners>
+  <test thread-count="5" name="Test">
+  
+ 
+    
     <classes>
-      <class name="com.bpci.testCases.TC001_Get_ActiveAdmissionCount"/>
+     
+      <class name="com.bpci.testCases.APIMethodCall"/>
+      <class name="com.bpci.testCases.APIMethodDeclare"/>
       
+     
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Default suite -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,4 +1,4 @@
-package com.bpci.testCases;
+package com.bpci.practice.example;
 
 import java.util.List;
 import java.util.Map;
@@ -21,7 +21,7 @@ public class TC007_Get_EpisodeSummaryDetails extends TestBase{
 		logger.info("********started TC007_Get_EpisodeSummaryDetails*********");
 		RestAssured.baseURI = uri;
 		httpRequest = RestAssured.given();
-		response = httpRequest.request(Method.GET,"/getEpisodeSummaryDetails?episodeid="+episodeid);
+		//response = httpRequest.request(Method.GET,"/getEpisodeSummaryDetails?episodeid="+episodeid);
 		Thread.sleep(3000);
 	}
 
