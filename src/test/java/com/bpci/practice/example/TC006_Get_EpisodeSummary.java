@@ -1,4 +1,4 @@
-package com.bpci.testCases;
+package com.bpci.practice.example;
 
 import java.util.List;
 import java.util.Map;

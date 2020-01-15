@@ -1,4 +1,4 @@
-package com.bpci.testCases;
+package com.bpci.practice.example;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;

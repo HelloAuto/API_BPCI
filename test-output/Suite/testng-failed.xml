@@ -1,36 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.bpci.utilities.Listeners"/>
-  </listeners>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.bpci.testCases.TC007_Get_EpisodeSummaryDetails">
+        <methods>
+          <include name="checkContentType"/>
+          <include name="getEpisodeSummaryDetails"/>
+          <include name="checkContentLength"/>
+          <include name="tearDown"/>
+          <include name="checkStatusLine"/>
+          <include name="setup"/>
+          <include name="checkStatusCode"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC007_Get_EpisodeSummaryDetails -->
+      <class name="com.bpci.testCases.TC013_Get_ValidateDRGCode">
+        <methods>
+          <include name="checkContentLength"/>
+          <include name="validateDRG"/>
+          <include name="tearDown"/>
+          <include name="checkContentType"/>
+          <include name="checkResponseTime"/>
+          <include name="setup"/>
+          <include name="checkStatusCode"/>
+          <include name="checkStatusLine"/>
+          <include name="validateDRGCode"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC013_Get_ValidateDRGCode -->
+      <class name="com.bpci.testCases.TC023_Post_sendPasswordRecoveryMail">
+        <methods>
+          <include name="checkContentType"/>
+          <include name="tearDown"/>
+          <include name="checkStatusLine"/>
+          <include name="checkContentLength"/>
+          <include name="mailNotSent"/>
+          <include name="setup"/>
+          <include name="checkStatusCode"/>
+          <include name="mailSentVerification"/>
+          <include name="getEpisodeFacilityDetails"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC023_Post_sendPasswordRecoveryMail -->
+      <class name="com.bpci.testCases.TC016_Get_EpisodePhysicianDetails">
+        <methods>
+          <include name="checkValidEpisodePhysicianDetails"/>
+          <include name="checkStatusCode"/>
+          <include name="getEpisodePhysicianDetails"/>
+          <include name="setup"/>
+          <include name="checkContentType"/>
+          <include name="tearDown"/>
+          <include name="checkStatusLine"/>
+          <include name="checkContentLength"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC016_Get_EpisodePhysicianDetails -->
       <class name="com.bpci.testCases.TC004_Get_PercentageOfReadmission">
         <methods>
           <include name="tearDown"/>
+          <include name="checkContentType"/>
           <include name="checkStatusLine"/>
           <include name="getActiveAdmissionCount"/>
           <include name="checkStatusCode"/>
           <include name="setup"/>
+          <include name="checkContentLength"/>
+          <include name="checkPercentageOfReadmission"/>
         </methods>
       </class> <!-- com.bpci.testCases.TC004_Get_PercentageOfReadmission -->
-      <class name="com.bpci.testCases.TC001_Get_ActiveAdmissionCount">
+      <class name="com.bpci.testCases.TC008_Get_ClinicalEpisodeType">
         <methods>
-          <include name="checkActiveEpisodeFilterByLOS"/>
-          <include name="getActiveAdmissionCount"/>
+          <include name="checkStatusCode"/>
+          <include name="checkStatusLine"/>
+          <include name="checkClinicalEpisodeDetails"/>
           <include name="setup"/>
+          <include name="getClinicalEpisodeType"/>
+          <include name="checkContentLength"/>
+          <include name="tearDown"/>
+          <include name="checkContentType"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC008_Get_ClinicalEpisodeType -->
+      <class name="com.bpci.testCases.TC014_Get_Initiator_Name">
+        <methods>
+          <include name="checkStatusLine"/>
+          <include name="checkEpisodeSummary"/>
+          <include name="getInitiatorName"/>
+          <include name="checkStatusCode"/>
+          <include name="setup"/>
+          <include name="checkContentType"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.bpci.testCases.TC001_Get_ActiveAdmissionCount -->
+      </class> <!-- com.bpci.testCases.TC014_Get_Initiator_Name -->
       <class name="com.bpci.testCases.TC006_Get_EpisodeSummary">
         <methods>
           <include name="getEpisodeSummary"/>
+          <include name="checkStatusCode"/>
           <include name="setup"/>
-          <include name="checkContentLength"/>
+          <include name="checkContentType"/>
+          <include name="checkStatusLine"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.bpci.testCases.TC006_Get_EpisodeSummary -->
+      <class name="com.bpci.testCases.TC015_Post_Insert_Episode_Details">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="getClinicalEpisodeType"/>
+          <include name="setup"/>
+          <include name="validateEpisodeDetails"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC015_Post_Insert_Episode_Details -->
+      <class name="com.bpci.testCases.TC001_Get_ActiveAdmissionCount">
+        <methods>
+          <include name="checkContentLength"/>
+          <include name="checkActiveEpisodeFilterByCurrentState"/>
+          <include name="checkActiveEpisodeFilterByOwnerName"/>
+          <include name="checkActiveEpisodeFilterByDischargeDate"/>
+          <include name="setup"/>
+          <include name="checkAdmissionCount"/>
+          <include name="tearDown"/>
+          <include name="checkActiveEpisodeFilterByFacilityName"/>
+          <include name="checkActiveEpisodeFilterByStartDate"/>
+          <include name="checkContentType"/>
+          <include name="checkActiveEpisodeFilterByEpisodeId"/>
+          <include name="checkActiveEpisodeFilterByInitiatorName"/>
+          <include name="checkActiveEpisodeFilterByPatientName"/>
+          <include name="checkObservationEpisode"/>
+          <include name="checkActiveEpisodeFilterByLOS"/>
+          <include name="checkStatusLine"/>
+          <include name="getActiveAdmissionCount"/>
+          <include name="checkActiveEpisodeFilterByDischargeDisposition"/>
+          <include name="checkInactiveEpisode"/>
+          <include name="checkStatusCode"/>
+          <include name="checkActiveEpisode"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC001_Get_ActiveAdmissionCount -->
+      <class name="com.bpci.testCases.TC002_Get_AverageLOS">
+        <methods>
+          <include name="checkAverageLOS"/>
+          <include name="checkAvgLosForDischargeDisposition"/>
+          <include name="setup"/>
+          <include name="checkAvgLosForClinicalEpisodeFilter"/>
+          <include name="tearDown"/>
+          <include name="getActiveAdmissionCount"/>
+          <include name="checkAvgLosForInitiator"/>
+          <include name="checkAvgLosForActiveStatus"/>
+          <include name="checkAvgLosForEpisodeIdFilter"/>
+          <include name="checkAvgLosForInactiveStatus"/>
+          <include name="checkAvgLosForPatientFilter"/>
+          <include name="checkAvgLosForDischargeDate"/>
+          <include name="checkAvgLosForStartDateFilter"/>
+          <include name="checkAvgLosForFacilityId"/>
+          <include name="checkAvgLosForOwnerFilter"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC002_Get_AverageLOS -->
+      <class name="com.bpci.testCases.TC005_Get_PercentageDischargeToSNF">
+        <methods>
+          <include name="validatePercentageDischargeToSNFFilterByInitiator"/>
+          <include name="validatePercentageDischargeToSNFFilterByObservationDate"/>
+          <include name="validatePercentageDischargeToSNFFilterByLOS"/>
+          <include name="validatePercentageDischargeToSNFFilterByInactive"/>
+          <include name="validatePercentageDischargeToSNFFilterByOwnerName"/>
+          <include name="validatePercentageDischargeToSNFFilterByEpisodeType"/>
+          <include name="validatePercentageDischargeToSNFFilterByDischargeDisposition"/>
+          <include name="validatePercentageDischargeToSNFFilterByStartDate"/>
+          <include name="validatePercentageDischargeToSNFFilterByDischargeDate"/>
+          <include name="checkContentLength"/>
+          <include name="setup"/>
+          <include name="validatePercentageDischargeToSNFFilterByAdmitDate"/>
+          <include name="validatePercentageDischargeToSNFFilterByEndDate"/>
+          <include name="validatePercentageDischargeToSNFFilterByStatus"/>
+          <include name="validatePercentageDischargeToSNFFilterByPatientName"/>
+          <include name="tearDown"/>
+          <include name="validatePercentageDischargeToSNFFilterByFacilityName"/>
+          <include name="checkStatusLine"/>
+          <include name="getActiveAdmissionCount"/>
+          <include name="validatePercentageDischargeToSNFFilterByEpisodeId"/>
+          <include name="validatePercentageDischargeToSNFFilterByState"/>
+          <include name="checkContentType"/>
+          <include name="validatePercentageDischargeToSNFFilterByDefault"/>
+          <include name="checkPercentageDischargeToSNF"/>
+          <include name="checkStatusCode"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC005_Get_PercentageDischargeToSNF -->
+      <class name="com.bpci.testCases.TC022_Get_LoginDetails">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="getEpisodeFacilityDetails"/>
+          <include name="verifySuccessfulLogin"/>
+          <include name="setup"/>
+          <include name="checkContentLength"/>
+          <include name="tearDown"/>
+          <include name="checkContentType"/>
+          <include name="verifyUnsuccessfulLogin"/>
+          <include name="checkStatusLine"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC022_Get_LoginDetails -->
+      <class name="com.bpci.testCases.TC003_Get_ProjectedCostPerYear">
+        <methods>
+          <include name="getProjectCostWithLoSFilter"/>
+          <include name="getProjectCostWithEpisodeTypeFilter"/>
+          <include name="getProjectCostWithInitiatorNameFilter"/>
+          <include name="getProjectCostWithDischargeDispositionFilter"/>
+          <include name="checkProjectedCost"/>
+          <include name="getProjectCostwithEpisodeFilter"/>
+          <include name="setup"/>
+          <include name="checkContentType"/>
+          <include name="getProjectCostWithStartDateFilter"/>
+          <include name="getProjectCost"/>
+          <include name="getProjectCostWithObservationEndDate"/>
+          <include name="checkContentLength"/>
+          <include name="getProjectCostWithMemberFilter"/>
+          <include name="getProjectCostWithFacilityName"/>
+          <include name="getProjectCoseWithDischargeDateFilter"/>
+          <include name="getProjectCostWithOwnerFilter"/>
+          <include name="tearDown"/>
+          <include name="getProjectCostWithEndDateFilter"/>
+          <include name="checkStatusCode"/>
+          <include name="checkStatusLine"/>
+          <include name="getProjectCostWithDischargeDateFilter"/>
+          <include name="getActiveAdmissionCount"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC003_Get_ProjectedCostPerYear -->
+      <class name="com.bpci.testCases.TC011_Get_DateDetails">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkDateDetails"/>
+          <include name="checkStatusCode"/>
+          <include name="setup"/>
+          <include name="checkStatusLine"/>
+          <include name="getActiveAdmissionCount"/>
+          <include name="checkContentType"/>
+          <include name="checkContentLength"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC011_Get_DateDetails -->
+      <class name="com.bpci.testCases.TC018_Get_EpisodeFacilityDetails">
+        <methods>
+          <include name="getEpisodeFacilityDetails"/>
+          <include name="checkStatusCode"/>
+          <include name="checkValidEpisodeFacilityDetails"/>
+          <include name="setup"/>
+          <include name="checkStatusLine"/>
+          <include name="checkContentType"/>
+          <include name="checkContentLength"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC018_Get_EpisodeFacilityDetails -->
+      <class name="com.bpci.testCases.TC024_Get_EmailAddress">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="getEpisodeFacilityDetails"/>
+          <include name="setup"/>
+          <include name="verifyEmail"/>
+          <include name="checkContentLength"/>
+          <include name="checkContentType"/>
+          <include name="checkStatusLine"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bpci.testCases.TC024_Get_EmailAddress -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

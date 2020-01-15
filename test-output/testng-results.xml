@@ -1,62 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-17T11:24:22Z" name="Default suite" finished-at="2019-07-17T11:24:32Z" duration-ms="9618">
+  <suite name="Default suite" duration-ms="20128" started-at="2019-10-18T11:56:40Z" finished-at="2019-10-18T11:57:00Z">
     <groups>
     </groups>
-    <test started-at="2019-07-17T11:24:22Z" name="Default test" finished-at="2019-07-17T11:24:32Z" duration-ms="9618">
-      <class name="com.bpci.testCases.GetRequestUsingExcel">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bpci.testCases.GetRequestUsingExcel@78dd667e]" started-at="2019-07-17T11:24:22Z" name="setup" finished-at="2019-07-17T11:24:23Z" duration-ms="130" status="PASS">
+    <test name="Default test" duration-ms="20128" started-at="2019-10-18T11:56:40Z" finished-at="2019-10-18T11:57:00Z">
+      <class name="com.bpci.testCases.APIMethodCall">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bpci.testCases.APIMethodCall@148080bb]" name="setup" is-config="true" duration-ms="103" started-at="2019-10-18T11:56:40Z" finished-at="2019-10-18T11:56:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateAllGetRequest()[pri:0, instance:com.bpci.testCases.GetRequestUsingExcel@78dd667e]" started-at="2019-07-17T11:24:23Z" name="validateAllGetRequest" finished-at="2019-07-17T11:24:32Z" duration-ms="9464" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [4] but found [13]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [4] but found [13]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:652)
-at org.testng.Assert.assertEquals(Assert.java:662)
-at com.bpci.testCases.GetRequestUsingExcel.validateAllGetRequest(GetRequestUsingExcel.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="dataPopulator()[pri:0, instance:com.bpci.testCases.APIMethodCall@148080bb]" name="dataPopulator" duration-ms="19996" started-at="2019-10-18T11:56:40Z" finished-at="2019-10-18T11:57:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAllGetRequest -->
-      </class> <!-- com.bpci.testCases.GetRequestUsingExcel -->
+        </test-method> <!-- dataPopulator -->
+      </class> <!-- com.bpci.testCases.APIMethodCall -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
