@@ -1,0 +1,12 @@
+{
+"Name":"Neha",
+"EMail":"neharani0293@gmail.com",
+"Password":"Hineha@111",
+"ConfirmPassword":"Hineha@111",
+"Address":"Marathalli Bangalore",
+"PhoneNumber":"9931333137",
+"RoleName":
+	[
+		{  "Name" : "Operator"},{"Name":"Nurse"},{"Name":"Doc"}
+	]
+}
